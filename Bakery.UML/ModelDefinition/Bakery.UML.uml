@@ -1968,6 +1968,312 @@
         isAbstract="false"
         isLeaf="false" />
     </packageHasNamedElement>
+    <packageHasNamedElement>
+      <actor
+        Id="86d18063-33c1-4004-aeb5-cfb922a0523c"
+        name="Actor1"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <actor
+        Id="4966ebfc-84a7-4ab8-85a8-2bfb46215c91"
+        name="Вантажник"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="e601535b-0295-4ea4-8b53-c9c783fee832"
+            isDerived="false"
+            sourceEndRoleName="Вантажник"
+            targetEndRoleName="Підтвердження виконання задачі2"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="9965abc3-57c7-46a1-ac90-2a85f03f2588"
+              LastKnownName="Підтвердження виконання задачі"
+              LastKnownLocation="Bakery.UML.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="a751a948-26cd-4ca2-9d94-6811da235d3a"
+                  name="Вантажник"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="9814c617-f925-405b-bc17-fb470316e708"
+                  name="Підтвердження виконання задачі2"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </actor>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <actor
+        Id="99d4b5fb-4dc6-4c5b-90a5-bb03f7dad5ef"
+        name="Комірник"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="71b885ac-63dd-4e10-ac3e-9b54dbeeb11b"
+            isDerived="false"
+            sourceEndRoleName="Комірник"
+            targetEndRoleName="Складання накладних про надходження сировини"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="fb164c62-2df3-47ad-87e6-cb831e4332d7"
+              LastKnownName="Складання накладних про надходження сировини"
+              LastKnownLocation="Bakery.UML.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="34998fdd-70ef-4562-9546-641f407941f1"
+                  name="Комірник"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="0170caea-104b-443c-9248-cae85d0e46bb"
+                  name="Складання накладних про надходження сировини"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="9fd44b07-5382-45e1-ae81-4fd2b814547c"
+            isDerived="false"
+            sourceEndRoleName="Комірник"
+            targetEndRoleName="Підтвердження виконання задачі2"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="9965abc3-57c7-46a1-ac90-2a85f03f2588"
+              LastKnownName="Підтвердження виконання задачі"
+              LastKnownLocation="Bakery.UML.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="ecf04d13-3d60-4998-8f7a-007c9a4b8588"
+                  name="Комірник"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="9baac843-187d-4eef-a3af-cbae72971f9f"
+                  name="Підтвердження виконання задачі2"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="211cdb6f-a6c6-48de-beb8-2644e605b08e"
+            isDerived="false"
+            sourceEndRoleName="Комірник"
+            targetEndRoleName="Складання накладних про видачу сировини"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="78af965c-8e14-4cec-be86-9ab1221b112a"
+              LastKnownName="Складання накладних про видачу сировини"
+              LastKnownLocation="Bakery.UML.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="4d62d84e-dcb5-4f24-86f2-b89268ff97c4"
+                  name="Комірник"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="22810baf-df58-4437-adb3-bd48bf692b9d"
+                  name="Складання накладних про видачу сировини"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </actor>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="fb164c62-2df3-47ad-87e6-cb831e4332d7"
+        name="Складання накладних про надходження сировини"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <actor
+        Id="46e26409-a785-4d57-ab12-29f8bd63e654"
+        name="Керівник"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="69aae753-2681-43a2-90c3-4a99c9580d32"
+            isDerived="false"
+            sourceEndRoleName="Керівник"
+            targetEndRoleName="Актуалізація задач"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="96b91023-039b-4571-9512-ebd655592840"
+              LastKnownName="Актуалізація задач"
+              LastKnownLocation="Bakery.UML.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="16628dea-c581-4794-b448-5ad30e497d56"
+                  name="Керівник"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="b29e8c79-2630-4ab7-80b6-2dbd9d59eebc"
+                  name="Актуалізація задач"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="955eae92-7f9d-4451-a107-891783f3ba87"
+            isDerived="false"
+            sourceEndRoleName="Керівник"
+            targetEndRoleName="Актуалізація задач1"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="252851c0-0a5c-46e0-baee-7908c322ee44"
+              LastKnownName="Перегляд задач (Період)"
+              LastKnownLocation="Bakery.UML.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="898d3f4d-3cb6-401e-be52-9bd436071fa6"
+                  name="Керівник"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="86015623-b473-4c7e-8a52-56b63a405c5d"
+                  name="Актуалізація задач1"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </actor>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="96b91023-039b-4571-9512-ebd655592840"
+        name="Актуалізація задач"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="252851c0-0a5c-46e0-baee-7908c322ee44"
+        name="Перегляд задач (Період)"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="9965abc3-57c7-46a1-ac90-2a85f03f2588"
+        name="Підтвердження виконання задачі"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="78af965c-8e14-4cec-be86-9ab1221b112a"
+        name="Складання накладних про видачу сировини"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
   </packagedElements>
   <primitiveType
     Id="220a3521-e091-4221-bae9-3ef9018e845c"

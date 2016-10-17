@@ -57,6 +57,13 @@
       <SubType>Content</SubType>
       <DependentUpon>Пекарня.usecasediagram</DependentUpon>
     </Content>
+    <Content Include="Склад продукции.usecasediagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Склад продукции.usecasediagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Склад продукции.usecasediagram</DependentUpon>
+    </Content>
     <Content Include="Склад.usecasediagram">
       <SubType>Content</SubType>
     </Content>
