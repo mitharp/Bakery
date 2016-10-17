@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<modelStoreModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+<modelStoreModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm10="http://schemas.microsoft.com/dsltools/UseCaseModel"
   dslVersion="1.0.0.0"
   Id="efdd1042-ac13-401a-a8f1-02bb11d37e9d"
   name="Bakery.UML" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
@@ -17,28 +17,369 @@
         name="StandardProfileL3" />
     </packageHasProfileInstances>
   </profileInstances>
+  <packagedElements>
+    <packageHasNamedElement>
+      <actor
+        Id="147b0cd4-fdb7-4bf8-b17f-0552c673202c"
+        name="Директор"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="abc9e45a-c44f-49ca-a4f4-472c60b187a3"
+            isDerived="false"
+            sourceEndRoleName="Директор"
+            targetEndRoleName="Прийняття рішень щодо постачання та реалізації"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="f70e2380-62f3-47ba-b411-b9d1df581566"
+              LastKnownName="Прийняття рішень щодо постачання"
+              LastKnownLocation="Bakery.UML.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="b8d80e1a-c9e8-4d16-9c99-0a0f1f398c3f"
+                  name="Директор"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="8eeffe04-c007-4567-9f96-fcc464e986a1"
+                  name="Прийняття рішень щодо постачання та реалізації"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="5b620729-2c3c-4bbf-8beb-7b2d8cf480fc"
+            isDerived="false"
+            sourceEndRoleName="Директор"
+            targetEndRoleName="Прийняття рішень щодо реалізації"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="28de456d-fd93-4da3-89fd-4c16c0c178f9"
+              LastKnownName="Прийняття рішень щодо реалізації"
+              LastKnownLocation="Bakery.UML.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="ea3d0f19-a201-4670-84a6-1dd066b5e18f"
+                  name="Директор"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="d8760f6b-20f4-4104-a40e-c95a4a3af0b2"
+                  name="Прийняття рішень щодо реалізації"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </actor>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <actor
+        Id="34fba482-b6df-4b3c-8686-c7558ed49efa"
+        name="Офис-менеджер"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="a69cc5fd-97cc-43e1-a068-88ba03048221"
+            isDerived="false"
+            sourceEndRoleName="Офис-менеджер"
+            targetEndRoleName="Ведення журналу вхідної кореспонденції"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="7d527d9b-beab-475b-aaad-3a088aa58e75"
+              LastKnownName="Ведення журналу вхідної кореспонденції"
+              LastKnownLocation="Bakery.UML.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="8c4860d0-d9d9-4151-b648-7d8f656c27b6"
+                  name="Офис-менеджер"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="b8419a45-a4d4-4e60-a25d-68d01869b7da"
+                  name="Ведення журналу вхідної кореспонденції"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="3ca4d1a5-3c22-46ab-8d96-552dafb1cd1a"
+            isDerived="false"
+            sourceEndRoleName="Офис-менеджер"
+            targetEndRoleName="Ведення журналу вихідної кореспонденції"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="5d5943a0-57ac-4332-9c65-438ad5a7aa8b"
+              LastKnownName="Ведення журналу вихідної кореспонденції"
+              LastKnownLocation="Bakery.UML.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="9c028e06-8522-4913-9b03-56ecc1692576"
+                  name="Офис-менеджер"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="bbd39f61-202a-4762-a646-d6b313ae3a07"
+                  name="Ведення журналу вихідної кореспонденції"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="36b15b87-5f96-4c13-a6a5-0673104454f6"
+            isDerived="false"
+            sourceEndRoleName="Офис-менеджер"
+            targetEndRoleName="Ведення журналу внутрішньої документації"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="139c2015-a751-4e97-a4b7-40034659ffde"
+              LastKnownName="Ведення журналу внутрішньої документації"
+              LastKnownLocation="Bakery.UML.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="a85f6610-7a65-43d2-8dd4-f31f1212409b"
+                  name="Офис-менеджер"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="ff6ef107-bb59-4596-a29d-468283485a5b"
+                  name="Ведення журналу внутрішньої документації"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </actor>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <subsystem
+        Id="54426f36-834d-4a60-8348-14bef4fadf86"
+        name="Subsystem1"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <actor
+        Id="4d045c2b-017d-4f48-b563-23b4296fb107"
+        name="Программный продукт?"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="24dc0220-aece-4663-bb09-aa43725c59d5"
+        name="Пинать"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <subsystem
+        Id="7bb17dd2-8747-4253-900a-2f22f6d252f4"
+        name="Subsystem2"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="84b602b4-0d79-4422-8017-6cc4ef5fb407"
+        name="Прийняття рішень"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="7d527d9b-beab-475b-aaad-3a088aa58e75"
+        name="Ведення журналу вхідної кореспонденції"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="5d5943a0-57ac-4332-9c65-438ad5a7aa8b"
+        name="Ведення журналу вихідної кореспонденції"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="139c2015-a751-4e97-a4b7-40034659ffde"
+        name="Ведення журналу внутрішньої документації"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="f70e2380-62f3-47ba-b411-b9d1df581566"
+        name="Прийняття рішень щодо постачання"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="2d68f668-20c1-4a8b-91ed-9928758f36a2"
+            isDerived="false"
+            sourceEndRoleName="Прийняття рішень щодо постачання та реалізації"
+            targetEndRoleName="Перегляд аналітичного параметризованого звіту з постачання (Сировина, Період, Постачальник, Код сировини)"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="10d84a34-f30b-49c4-a21d-ff6e44aac15a"
+              LastKnownName="Перегляд аналітичного параметризованого звіту з постачання (Сировина, Період, Постачальник, Код сировини)"
+              LastKnownLocation="Bakery.UML.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="54a79ebc-6a86-427d-878c-c0315f4a85dd"
+                  name="Прийняття рішень щодо постачання та реалізації"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="93b01605-9834-4ee5-a83b-2af763d6d6df"
+                  name="Перегляд аналітичного параметризованого звіту з постачання (Сировина, Період, Постачальник, Код сировини)"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="10d84a34-f30b-49c4-a21d-ff6e44aac15a"
+        name="Перегляд аналітичного параметризованого звіту з постачання (Сировина, Період, Постачальник, Код сировини)"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="28de456d-fd93-4da3-89fd-4c16c0c178f9"
+        name="Прийняття рішень щодо реалізації"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="c13cbd66-69af-4aff-90fc-7fed1d39b31b"
+        name="Перегляд аналітичного параметризованого звіту з реалізації "
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+  </packagedElements>
   <primitiveType
     Id="220a3521-e091-4221-bae9-3ef9018e845c"
     name="Integer"
     isAbstract="false"
-    isTemplate="false"
     isLeaf="false" />
   <primitiveType
     Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
     name="Boolean"
     isAbstract="false"
-    isTemplate="false"
     isLeaf="false" />
   <primitiveType
     Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
     name="String"
     isAbstract="false"
-    isTemplate="false"
     isLeaf="false" />
   <primitiveType
     Id="3ab42e7d-4969-445a-b209-471f5cb8209c"
     name="UnlimitedNatural"
     isAbstract="false"
-    isTemplate="false"
     isLeaf="false" />
 </modelStoreModel>

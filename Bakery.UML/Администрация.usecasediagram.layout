@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="UMLUseCaseDiagram1">
+  <useCaseModelRootMoniker Id="1c137a9a-b66d-4741-8f87-cdd10408c3c4" />
+  <nestedChildShapes>
+    <actorShape Id="7f475bd9-4973-4c25-b38c-5ad9caf53480" absoluteBounds="2.5, 1.125, 0.5, 0.5" isReference="false" heightOffset="0">
+      <actorMoniker Id="58265eab-cf43-41ad-bffe-ef5742b51ae1" LastKnownName="Директор" />
+      <relativeChildShapes />
+    </actorShape>
+    <actorShape Id="42639205-b794-4007-a811-69381e362163" absoluteBounds="2.375, 4.375, 0.5, 0.5" isReference="false" heightOffset="0">
+      <actorMoniker Id="bc78ed9d-74bb-49ed-b964-a25524f18845" LastKnownName="Офис-менеджер" />
+      <relativeChildShapes />
+    </actorShape>
+    <useCaseShape Id="370b127e-0979-4b50-89f9-26cbca8ad0e9" absoluteBounds="4.875, 3.5, 2.375, 0.75" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="25f42940-610c-4f8d-8a4f-958484c79fc3" LastKnownName="Ведення журналу вхідної кореспонденції" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <useCaseAssociationConnector edgePoints="[(2.875 : 4.54291721421962); (4.87551888723621 : 3.8860845611372)]" fixedFrom="Algorithm" fixedTo="Caller" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+      <associationMoniker Id="ac58a8fa-bdc0-4bc0-935e-66adbdd3e30f" />
+      <relativeChildShapes />
+      <nodes>
+        <actorShapeMoniker Id="42639205-b794-4007-a811-69381e362163" />
+        <useCaseShapeMoniker Id="370b127e-0979-4b50-89f9-26cbca8ad0e9" />
+      </nodes>
+    </useCaseAssociationConnector>
+    <useCaseShape Id="1694f0a1-7eb9-4918-9bfb-ca6f3bf20281" absoluteBounds="4.875, 4.375, 2.375, 0.75" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="5e55220a-4b5b-4a75-befc-7ee90a25040b" LastKnownName="Ведення журналу вихідної кореспонденції" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <useCaseAssociationConnector edgePoints="[(2.875 : 4.64074307852204); (4.87618695232188 : 4.76676245183274)]" fixedFrom="Algorithm" fixedTo="Caller" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+      <associationMoniker Id="c4ceb5de-27af-40da-a766-c562516b21a6" />
+      <relativeChildShapes />
+      <nodes>
+        <actorShapeMoniker Id="42639205-b794-4007-a811-69381e362163" />
+        <useCaseShapeMoniker Id="1694f0a1-7eb9-4918-9bfb-ca6f3bf20281" />
+      </nodes>
+    </useCaseAssociationConnector>
+    <useCaseShape Id="0f3437ad-6ba5-4784-974d-b0133f87bc72" absoluteBounds="4.875, 5.375, 2.375, 0.75" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="36116759-0bf6-4738-b5f4-a31e7d55a64b" LastKnownName="Ведення журналу внутрішньої документації" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <useCaseAssociationConnector edgePoints="[(2.875 : 4.75087164236035); (4.87526891513587 : 5.75798017640238)]" fixedFrom="Algorithm" fixedTo="Caller" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+      <associationMoniker Id="56d1c3b2-13cc-4df5-a565-91e61944c510" />
+      <relativeChildShapes />
+      <nodes>
+        <actorShapeMoniker Id="42639205-b794-4007-a811-69381e362163" />
+        <useCaseShapeMoniker Id="0f3437ad-6ba5-4784-974d-b0133f87bc72" />
+      </nodes>
+    </useCaseAssociationConnector>
+    <useCaseShape Id="97ff24c9-4036-407e-9ae2-cd3d06e23483" absoluteBounds="3.75, 1, 2.375, 0.75" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="9db2812d-b84e-4149-942b-a9da9f2a63e7" LastKnownName="Прийняття рішень щодо постачання" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <useCaseAssociationConnector edgePoints="[(3 : 1.375); (3.75 : 1.375)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+      <associationMoniker Id="08e857b1-8ccd-4640-a4ea-ad9a730e6b6b" />
+      <relativeChildShapes />
+      <nodes>
+        <actorShapeMoniker Id="7f475bd9-4973-4c25-b38c-5ad9caf53480" />
+        <useCaseShapeMoniker Id="97ff24c9-4036-407e-9ae2-cd3d06e23483" />
+      </nodes>
+    </useCaseAssociationConnector>
+    <useCaseShape Id="baaa9dea-8a7f-47b4-ae17-b2e5d6be532d" absoluteBounds="6.75, 1, 2.875, 1.125" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="f1c0cad6-871a-4699-a9ea-b1c6fe734e3a" LastKnownName="Перегляд аналітичного параметризованого звіту з постачання (Сировина, Період, Постачальник, Код сировини)" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <useCaseAssociationConnector edgePoints="[(6.10566538236753 : 1.44239415667505); (6.7653735302519 : 1.48045424212992)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+      <associationMoniker Id="14ee239c-c224-4754-b536-382d70fda5fc" />
+      <relativeChildShapes />
+      <nodes>
+        <useCaseShapeMoniker Id="97ff24c9-4036-407e-9ae2-cd3d06e23483" />
+        <useCaseShapeMoniker Id="baaa9dea-8a7f-47b4-ae17-b2e5d6be532d" />
+      </nodes>
+    </useCaseAssociationConnector>
+    <useCaseShape Id="a6cfe350-78b7-4ce8-89a1-67f852e5a9d5" absoluteBounds="3.75, 2.125, 2.375, 0.75" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="dc40e67b-4fe8-48fc-8d81-4fc758e2a72f" LastKnownName="Прийняття рішень щодо реалізації" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <useCaseAssociationConnector edgePoints="[(3 : 1.50357142857143); (4.31612514791312 : 2.18043579035532)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+      <associationMoniker Id="b28fd0b6-234a-4374-80a5-3fb5e03a5afa" />
+      <relativeChildShapes />
+      <nodes>
+        <actorShapeMoniker Id="7f475bd9-4973-4c25-b38c-5ad9caf53480" />
+        <useCaseShapeMoniker Id="a6cfe350-78b7-4ce8-89a1-67f852e5a9d5" />
+      </nodes>
+    </useCaseAssociationConnector>
+    <useCaseShape Id="1233b322-854f-4a49-b63c-f61a8ff2d22d" absoluteBounds="6.5, 2.375, 2.875, 1.125" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="ba78ab9c-11b9-410a-a2c6-467757a5a493" LastKnownName="Перегляд аналітичного параметризованого звіту з реалізації " />
+      <relativeChildShapes />
+    </useCaseShape>
+  </nestedChildShapes>
+</useCaseDiagram>
