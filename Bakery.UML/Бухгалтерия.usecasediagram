@@ -35,6 +35,22 @@
             </relationshipOwnedElementsInternal>
             <elementDefinition Id="d4be956c-9bcf-41cd-8208-9e31014b2269" />
           </association>
+          <association Id="91a2fd09-89ab-4e8c-8813-0d30f56c8fc1" isDerived="false" sourceEndRoleName="Бухгалтер-касир" targetEndRoleName="Підтвердження виконання задачі1" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="19c6fef6-312f-444b-8b73-cc0976e73c13" LastKnownName="Підтвердження виконання задачі" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="a1e8efb6-493d-49b0-aacd-b8cd5fb8983d" name="Бухгалтер-касир" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="6a645979-8e3d-44c3-a166-732831f8f15d" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="84c3b9ac-c6b0-4643-b170-64641e4fdbdf" name="Підтвердження виконання задачі1" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="13db4985-7229-411a-9e9d-a1ae9196f925" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="61351be9-deef-43d0-a5c8-d639b0c09d16" />
+          </association>
         </targetEnds>
       </actor>
     </useCaseModelRootHasTypes>
@@ -90,6 +106,11 @@
     <useCaseModelRootHasTypes>
       <useCase Id="63a01ed4-a77b-4bc9-9717-311f43535cba" name="Перегляд фінансової звітності та балансу підприємства" isAbstract="false" isLeaf="false">
         <elementDefinition Id="7b8fda14-418d-46ce-8d9b-41e9be407c67" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="19c6fef6-312f-444b-8b73-cc0976e73c13" name="Підтвердження виконання задачі" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="4e4b18f6-6a8e-41e8-b5cd-c7c2413824c9" />
       </useCase>
     </useCaseModelRootHasTypes>
   </packagedElements>

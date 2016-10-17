@@ -46,5 +46,17 @@
         <useCaseShapeMoniker Id="1ef1d487-ebda-42a3-ab29-44b84e0e8c09" />
       </nodes>
     </useCaseAssociationConnector>
+    <useCaseShape Id="e711306e-d3a4-4f39-a787-341fe189c004" absoluteBounds="4, 3.875, 1.625, 0.875" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="19c6fef6-312f-444b-8b73-cc0976e73c13" LastKnownName="Підтвердження виконання задачі" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <useCaseAssociationConnector edgePoints="[(2.5 : 3.40306018614943); (4.00017297777332 : 4.32152720708677)]" fixedFrom="Algorithm" fixedTo="Caller" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+      <associationMoniker Id="91a2fd09-89ab-4e8c-8813-0d30f56c8fc1" />
+      <relativeChildShapes />
+      <nodes>
+        <actorShapeMoniker Id="66fe20dd-e6b4-4587-83b3-252f9160e645" />
+        <useCaseShapeMoniker Id="e711306e-d3a4-4f39-a787-341fe189c004" />
+      </nodes>
+    </useCaseAssociationConnector>
   </nestedChildShapes>
 </useCaseDiagram>

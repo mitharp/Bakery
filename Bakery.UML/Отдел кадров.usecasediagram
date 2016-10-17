@@ -90,6 +90,22 @@
             </relationshipOwnedElementsInternal>
             <elementDefinition Id="53211528-6a7d-4941-9ec9-b35fd5554134" />
           </association>
+          <association Id="20be50b0-ea58-471b-a457-213a2a7eaa81" isDerived="false" sourceEndRoleName="Менеджер з персоналу" targetEndRoleName="Підтвердження виконання задачі" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="82c13309-0bc1-404a-a299-9ddfe76f5d2a" LastKnownName="Підтвердження виконання задачі" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="a4673749-7b6d-4f5e-aa29-e8a6fd47d831" name="Менеджер з персоналу" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="8363e3f6-91aa-4392-afae-882e7c38fa7e" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="e147407b-c778-4586-bb29-5773a6dc47ce" name="Підтвердження виконання задачі" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="59631fd3-9a28-4bbb-a64e-f33d933380a0" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="9a15e109-ce43-4765-8678-dfcdd62da34c" />
+          </association>
         </targetEnds>
       </actor>
     </useCaseModelRootHasTypes>
@@ -199,6 +215,11 @@
     <useCaseModelRootHasTypes>
       <useCase Id="62d0e416-fe52-4dbf-b8c4-4f92c0d67f0d" name="Внесення наказів про відпустку" isAbstract="false" isLeaf="false">
         <elementDefinition Id="2af23a99-ce6a-43f7-b3ce-d752e8a1db21" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="82c13309-0bc1-404a-a299-9ddfe76f5d2a" name="Підтвердження виконання задачі" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="efe5c036-ae88-49a8-b3c5-6975f07c985f" />
       </useCase>
     </useCaseModelRootHasTypes>
   </packagedElements>

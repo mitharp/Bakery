@@ -35,6 +35,22 @@
             </relationshipOwnedElementsInternal>
             <elementDefinition Id="be4c05fd-072b-4e3c-a58d-cc8ddbcbd3a3" />
           </association>
+          <association Id="cefa1d6f-fd81-4aa4-b093-9c4254135120" isDerived="false" sourceEndRoleName="Менеджер з постачання сировини" targetEndRoleName="Підтвердження виконання задачі" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="1f8baea2-13bf-452a-bd02-2eabc49a36ca" LastKnownName="Підтвердження виконання задачі" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="b2688dbd-e0b3-4f5d-b030-f73de6cb6595" name="Менеджер з постачання сировини" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="818d0f7b-e630-4a55-9731-3a01eed037a6" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="a23b0493-5595-4f55-9e31-1b0cabb1c10f" name="Підтвердження виконання задачі" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="604f093d-a98d-45d8-b710-a935e7a5d01f" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="6034695d-2e5a-4663-a87f-372ff056b3ea" />
+          </association>
         </targetEnds>
       </actor>
     </useCaseModelRootHasTypes>
@@ -57,6 +73,22 @@
               </associationHasOwnedEnds>
             </relationshipOwnedElementsInternal>
             <elementDefinition Id="3ad48961-7a1b-4aae-aa58-60db434a699d" />
+          </association>
+          <association Id="8d8adc60-99c6-43ce-a134-009a2803c2fc" isDerived="false" sourceEndRoleName="Менеджер з постачання устаткування" targetEndRoleName="Підтвердження виконання задачі" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="1f8baea2-13bf-452a-bd02-2eabc49a36ca" LastKnownName="Підтвердження виконання задачі" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="57d7c1cd-c24d-4e0d-a4bc-5eda10e8d672" name="Менеджер з постачання устаткування" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="630bfe36-d0a4-4714-8bf5-efaf94f58cad" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="c08afb0a-0f2a-48e1-ac23-5f143869d242" name="Підтвердження виконання задачі" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="c12b6e01-c82d-451e-a436-74c7634821ae" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="263fbe1c-906e-480b-b223-ae496fa54d33" />
           </association>
         </targetEnds>
       </actor>
@@ -118,6 +150,11 @@
     <useCaseModelRootHasTypes>
       <useCase Id="3cb49585-ebf0-4940-9caa-5d50839945b9" name="Перегляд параметризованого звіту з постачання (Устаткування, Період, Постачальник, Код устаткування)" isAbstract="false" isLeaf="false">
         <elementDefinition Id="cb8cfa5f-2aac-485a-9b8c-75857eff580b" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="1f8baea2-13bf-452a-bd02-2eabc49a36ca" name="Підтвердження виконання задачі" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="af410356-19ee-4d5f-93f6-773698681698" />
       </useCase>
     </useCaseModelRootHasTypes>
   </packagedElements>

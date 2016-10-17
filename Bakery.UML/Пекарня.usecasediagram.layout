@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="Пекарня">
+  <useCaseModelRootMoniker Id="3d173b8f-cba0-4c96-a893-77d23c98a245" />
+  <nestedChildShapes>
+    <actorShape Id="c3913464-8d52-4a00-9f92-46facc9345b1" absoluteBounds="2.375, 1.625, 0.5, 0.5" isReference="false" heightOffset="0">
+      <actorMoniker Id="b2e5531f-0c0b-4db3-ba66-b01079425fea" LastKnownName="Кондитери" />
+      <relativeChildShapes />
+    </actorShape>
+    <actorShape Id="df82c59d-65ec-4284-abdb-42bf76dbf998" absoluteBounds="2.375, 2.5, 0.5, 0.5" isReference="false" heightOffset="0">
+      <actorMoniker Id="76efbb6b-a1be-426e-93dd-41311eefa0d1" LastKnownName="Пекарі" />
+      <relativeChildShapes />
+    </actorShape>
+    <actorShape Id="382132f1-3a2a-4072-b759-97c70e5132c5" absoluteBounds="2.375, 3.375, 0.5, 0.5" isReference="false" heightOffset="0">
+      <actorMoniker Id="9473fba3-c584-4fdc-ac70-cf1d00ff756d" LastKnownName="Обслуговуючий персонал" />
+      <relativeChildShapes />
+    </actorShape>
+    <actorShape Id="53ee1e39-41d5-415f-9eb7-ffa5a3567fc6" absoluteBounds="2.375, 0.75, 0.5, 0.5" isReference="false" heightOffset="0">
+      <actorMoniker Id="1f139ed1-bcf4-4c64-bb5c-90e29cfe61b6" LastKnownName="Керівник" />
+      <relativeChildShapes />
+    </actorShape>
+    <useCaseShape Id="55006f0d-68bd-41c5-8a64-f1c90f595efa" absoluteBounds="4.375, 0.75, 1.5, 0.5" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="14663248-8b99-4c8d-b0a5-e29751d6c999" LastKnownName="Актуалізація задач" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <useCaseAssociationConnector edgePoints="[(2.875 : 1); (4.375 : 1)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+      <associationMoniker Id="348f650d-c3a8-46fe-8b83-c4ca09511b24" />
+      <relativeChildShapes />
+      <nodes>
+        <actorShapeMoniker Id="53ee1e39-41d5-415f-9eb7-ffa5a3567fc6" />
+        <useCaseShapeMoniker Id="55006f0d-68bd-41c5-8a64-f1c90f595efa" />
+      </nodes>
+    </useCaseAssociationConnector>
+    <useCaseShape Id="fdcb3ce2-b36d-4e65-8d02-e91316c12de2" absoluteBounds="4.375, 1.375, 1.5, 0.5" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="bdfad4eb-621b-4d7b-b5eb-04141c0b544c" LastKnownName="Перегляд задач (Період)" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <useCaseAssociationConnector edgePoints="[(2.875 : 1.08676471061107); (4.37674452046356 : 1.60795842553018)]" fixedFrom="Algorithm" fixedTo="Caller" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+      <associationMoniker Id="a3ea2bc2-d924-4c41-bdd0-e12f4dc21f39" />
+      <relativeChildShapes />
+      <nodes>
+        <actorShapeMoniker Id="53ee1e39-41d5-415f-9eb7-ffa5a3567fc6" />
+        <useCaseShapeMoniker Id="fdcb3ce2-b36d-4e65-8d02-e91316c12de2" />
+      </nodes>
+    </useCaseAssociationConnector>
+    <useCaseShape Id="76263ba7-e23b-45fa-ba5b-4808acac6a3d" absoluteBounds="4.375, 2.875, 1.5, 0.875" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="bec09922-d95c-43a2-95b7-4e2c9eb79641" LastKnownName="Підтвердження виконання задачі" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <useCaseAssociationConnector edgePoints="[(2.875 : 2.05232558021972); (4.42666748650677 : 3.15292692963129)]" fixedFrom="Algorithm" fixedTo="Caller" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+      <associationMoniker Id="b3b31943-e2e8-4e03-8796-f34a0103db9e" />
+      <relativeChildShapes />
+      <nodes>
+        <actorShapeMoniker Id="c3913464-8d52-4a00-9f92-46facc9345b1" />
+        <useCaseShapeMoniker Id="76263ba7-e23b-45fa-ba5b-4808acac6a3d" />
+      </nodes>
+    </useCaseAssociationConnector>
+    <useCaseAssociationConnector edgePoints="[(2.875 : 2.82481327902989); (4.37782853140595 : 3.27453940004648)]" fixedFrom="Algorithm" fixedTo="Caller" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+      <associationMoniker Id="2a822733-f694-4dc2-a45b-348aa57957de" />
+      <relativeChildShapes />
+      <nodes>
+        <actorShapeMoniker Id="df82c59d-65ec-4284-abdb-42bf76dbf998" />
+        <useCaseShapeMoniker Id="76263ba7-e23b-45fa-ba5b-4808acac6a3d" />
+      </nodes>
+    </useCaseAssociationConnector>
+    <useCaseAssociationConnector edgePoints="[(2.875 : 3.59375); (4.39164818944194 : 3.40416897631976)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+      <associationMoniker Id="d53633ff-be3f-4ba6-9b4a-938bb43a7680" />
+      <relativeChildShapes />
+      <nodes>
+        <actorShapeMoniker Id="382132f1-3a2a-4072-b759-97c70e5132c5" />
+        <useCaseShapeMoniker Id="76263ba7-e23b-45fa-ba5b-4808acac6a3d" />
+      </nodes>
+    </useCaseAssociationConnector>
+    <useCaseShape Id="a04c6bfc-9380-415f-bda7-737764997001" absoluteBounds="4.375, 2, 1.5, 0.75" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="3c3c6db1-71e3-4995-92ea-6bca72073ce1" LastKnownName="Внесення&#xD;&#xA;наряду-рецептури" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <useCaseAssociationConnector edgePoints="[(2.875 : 1.19940476188288); (4.37627416615986 : 2.39684963237897)]" fixedFrom="Algorithm" fixedTo="Caller" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+      <associationMoniker Id="b9c68f6e-1a6c-49a3-ab4a-5b160083fb42" />
+      <relativeChildShapes />
+      <nodes>
+        <actorShapeMoniker Id="53ee1e39-41d5-415f-9eb7-ffa5a3567fc6" />
+        <useCaseShapeMoniker Id="a04c6bfc-9380-415f-bda7-737764997001" />
+      </nodes>
+    </useCaseAssociationConnector>
+  </nestedChildShapes>
+</useCaseDiagram>

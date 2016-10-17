@@ -19,21 +19,21 @@
       <actor Id="449de1a4-f82f-4430-a3b1-82d8256accc6" name="Вантажник" isAbstract="false" isLeaf="false">
         <elementDefinition Id="b15d3225-380b-4231-9fc3-acbc15c4e922" />
         <targetEnds>
-          <association Id="85b1f9f0-e545-46c9-86c6-f01ab6fb6d23" isDerived="false" sourceEndRoleName="Вантажник" targetEndRoleName="Оп-ля, я гружу" isLeaf="false" isAbstract="false">
-            <useCaseMoniker Id="9cd36292-878b-45ec-b466-5f7ddf7ffbff" LastKnownName="Оп-ля, я гружу" />
+          <association Id="65009f7f-3005-4e2c-9068-45ea36eb3bc1" isDerived="false" sourceEndRoleName="Вантажник" targetEndRoleName="Підтвердження виконання задачі2" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="d6e546f0-b7e4-40b5-9ffd-26a26e1c9750" LastKnownName="Підтвердження виконання задачі" />
             <relationshipOwnedElementsInternal>
               <associationHasOwnedEnds>
-                <memberEnd Id="ba230fc6-7217-4c07-8d5e-cfb03e067d89" name="Вантажник" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
-                  <elementDefinition Id="372b7f20-d6de-431f-a899-04d92d70852d" />
+                <memberEnd Id="d4153cdd-b27e-4d01-804d-b66999d4d15d" name="Вантажник" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="00e70e33-c72a-449d-a260-c53fb7666928" />
                 </memberEnd>
               </associationHasOwnedEnds>
               <associationHasOwnedEnds>
-                <memberEnd Id="60049e26-f948-41a8-adc2-a144b610d5a4" name="Оп-ля, я гружу" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
-                  <elementDefinition Id="8cb1bbe5-6dcf-4f46-996c-ae694b705d4b" />
+                <memberEnd Id="d710ac31-9af5-4025-9a66-c21cffc1ab00" name="Підтвердження виконання задачі2" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="d422e053-0e7c-4c4d-b7de-d94cad244336" />
                 </memberEnd>
               </associationHasOwnedEnds>
             </relationshipOwnedElementsInternal>
-            <elementDefinition Id="5555903a-9e74-4da1-9fc8-cfb9acc25e48" />
+            <elementDefinition Id="85921aa9-0f5d-4b9a-8cf4-9be0b5a18973" />
           </association>
         </targetEnds>
       </actor>
@@ -57,6 +57,22 @@
               </associationHasOwnedEnds>
             </relationshipOwnedElementsInternal>
             <elementDefinition Id="c2b62fa9-204c-4e79-a37f-aa1a3023fe63" />
+          </association>
+          <association Id="1efd7579-48f2-40bd-a700-ec854af39e88" isDerived="false" sourceEndRoleName="Комірник" targetEndRoleName="Підтвердження виконання задачі2" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="d6e546f0-b7e4-40b5-9ffd-26a26e1c9750" LastKnownName="Підтвердження виконання задачі" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="9f356667-9bdf-4c94-9f88-231476438ab5" name="Комірник" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="a041bdfb-ca72-4d4a-b5f8-aff3a5eac5df" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="a61b7555-d7fc-4277-b9d3-f39f55f850a3" name="Підтвердження виконання задачі2" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="84a8f31a-df1f-4031-953e-37671c3c42fa" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="99730476-af2d-43c6-adb5-52d917125aaa" />
           </association>
         </targetEnds>
       </actor>
@@ -116,8 +132,8 @@
       </useCase>
     </useCaseModelRootHasTypes>
     <useCaseModelRootHasTypes>
-      <useCase Id="9cd36292-878b-45ec-b466-5f7ddf7ffbff" name="Оп-ля, я гружу" isAbstract="false" isLeaf="false">
-        <elementDefinition Id="c3a35e32-33df-4ed7-b661-f7ddfd8b6017" />
+      <useCase Id="d6e546f0-b7e4-40b5-9ffd-26a26e1c9750" name="Підтвердження виконання задачі" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="43fe65c4-b5f9-46d9-989f-5b986cd3135e" />
       </useCase>
     </useCaseModelRootHasTypes>
   </packagedElements>
