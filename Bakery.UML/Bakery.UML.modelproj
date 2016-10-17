@@ -50,6 +50,13 @@
       <SubType>Content</SubType>
       <DependentUpon>Отдел поставок.usecasediagram</DependentUpon>
     </Content>
+    <Content Include="Отдел реализации.usecasediagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Отдел реализации.usecasediagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Отдел реализации.usecasediagram</DependentUpon>
+    </Content>
     <Content Include="Пекарня.usecasediagram">
       <SubType>Content</SubType>
     </Content>
