@@ -29,6 +29,13 @@
       <SubType>Content</SubType>
       <DependentUpon>Администрация.usecasediagram</DependentUpon>
     </Content>
+    <Content Include="Отдел кадров.usecasediagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Отдел кадров.usecasediagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Отдел кадров.usecasediagram</DependentUpon>
+    </Content>
     <Folder Include="ModelDefinition\" />
     <Content Include="ModelDefinition\Bakery.UML.uml">
       <SubType>Content</SubType>

@@ -155,6 +155,24 @@
     <useCaseModelRootHasTypes>
       <useCase Id="dc40e67b-4fe8-48fc-8d81-4fc758e2a72f" name="Прийняття рішень щодо реалізації" isAbstract="false" isLeaf="false">
         <elementDefinition Id="28de456d-fd93-4da3-89fd-4c16c0c178f9" />
+        <targetEnds>
+          <association Id="5a9365e7-ecd7-4c2d-a124-95f4ecc55168" isDerived="false" sourceEndRoleName="Прийняття рішень щодо реалізації" targetEndRoleName="Перегляд аналітичного параметризованого звіту з реалізації " isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="ba78ab9c-11b9-410a-a2c6-467757a5a493" LastKnownName="Перегляд аналітичного параметризованого звіту з реалізації " />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="96e9cc6d-ea6f-48e5-9565-f0cc03c9b15b" name="Прийняття рішень щодо реалізації" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="1fdce391-bd87-49c2-8d29-6f68c17ed891" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="0774889e-c461-402e-8c2f-aeb810d227e7" name="Перегляд аналітичного параметризованого звіту з реалізації " isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="0796f7fe-e5a6-47e8-9948-ebe692c02cd0" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="a97cd8b5-57da-4dab-8921-ae0999ede010" />
+          </association>
+        </targetEnds>
       </useCase>
     </useCaseModelRootHasTypes>
     <useCaseModelRootHasTypes>

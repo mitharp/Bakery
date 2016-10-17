@@ -352,12 +352,448 @@
         Id="28de456d-fd93-4da3-89fd-4c16c0c178f9"
         name="Прийняття рішень щодо реалізації"
         isAbstract="false"
-        isLeaf="false" />
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="a97cd8b5-57da-4dab-8921-ae0999ede010"
+            isDerived="false"
+            sourceEndRoleName="Прийняття рішень щодо реалізації"
+            targetEndRoleName="Перегляд аналітичного параметризованого звіту з реалізації "
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="c13cbd66-69af-4aff-90fc-7fed1d39b31b"
+              LastKnownName="Перегляд аналітичного параметризованого звіту з реалізації "
+              LastKnownLocation="Bakery.UML.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="1fdce391-bd87-49c2-8d29-6f68c17ed891"
+                  name="Прийняття рішень щодо реалізації"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="0796f7fe-e5a6-47e8-9948-ebe692c02cd0"
+                  name="Перегляд аналітичного параметризованого звіту з реалізації "
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </useCase>
     </packageHasNamedElement>
     <packageHasNamedElement>
       <useCase
         Id="c13cbd66-69af-4aff-90fc-7fed1d39b31b"
         name="Перегляд аналітичного параметризованого звіту з реалізації "
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <actor
+        Id="7f60d784-5028-4bf3-ac9b-23cdd400568f"
+        name="Керівник"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="5e1870d6-f5af-47b2-8d36-2238bfbbc4a6"
+            isDerived="false"
+            sourceEndRoleName="Керівник"
+            targetEndRoleName="Актуалізація задач"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="a8053676-e9f5-483b-bc09-82d02adcd609"
+              LastKnownName="Актуалізація задач"
+              LastKnownLocation="Bakery.UML.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="ed65f2eb-d79d-4d3f-a22a-db166a1e35db"
+                  name="Керівник"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="1992ca87-321b-4066-8c75-9af4897811f0"
+                  name="Актуалізація задач"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="915fea18-b19c-487b-8175-aa437d37e4d7"
+            isDerived="false"
+            sourceEndRoleName="Керівник"
+            targetEndRoleName="Актуалізація задач1"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="38901a33-bd7d-4034-9163-e32a35897408"
+              LastKnownName="Перегляд задач (Період)"
+              LastKnownLocation="Bakery.UML.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="6920973a-f367-4a77-8a84-ae57f6eff4e6"
+                  name="Керівник"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="d2f58659-fc67-4480-b46e-bfb36e87de03"
+                  name="Актуалізація задач1"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </actor>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <actor
+        Id="9becbf59-3205-4d59-a2b4-c0219807dec8"
+        name="Менеджер з персоналу"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="58bf8be5-3613-4e42-953d-acb0fadc51fb"
+            isDerived="false"
+            sourceEndRoleName="Менеджер з персоналу"
+            targetEndRoleName="Ведення особистих справ"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="96fb6931-e6d7-4dec-b7ef-3f5736ebb6cf"
+              LastKnownName="Ведення особистих справ"
+              LastKnownLocation="Bakery.UML.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="8aa65c07-c8c8-4ce6-b6b3-7b4a5c7155cf"
+                  name="Менеджер з персоналу"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="e313fb90-6a5c-4ef6-8d2f-5c6d312081a3"
+                  name="Ведення особистих справ"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="53211528-6a7d-4941-9ec9-b35fd5554134"
+            isDerived="false"
+            sourceEndRoleName="Менеджер з персоналу"
+            targetEndRoleName="Складання посадових інструкцій"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="ec5cef27-1d6a-4392-9ad4-167f7d46484e"
+              LastKnownName="Складання посадових інструкцій"
+              LastKnownLocation="Bakery.UML.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="a8649dde-bdcf-4b70-9a84-ce1617b6ec34"
+                  name="Менеджер з персоналу"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="c8b58703-3ff0-4527-95e6-739bdb86247a"
+                  name="Складання посадових інструкцій"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </actor>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="a8053676-e9f5-483b-bc09-82d02adcd609"
+        name="Актуалізація задач"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="38901a33-bd7d-4034-9163-e32a35897408"
+        name="Перегляд задач (Період)"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="96fb6931-e6d7-4dec-b7ef-3f5736ebb6cf"
+        name="Ведення особистих справ"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="4a9e99ff-4903-4062-ae40-45543a7f7057"
+            isDerived="false"
+            sourceEndRoleName="Ведення особистих справ"
+            targetEndRoleName="Внесення наказів про прийняття на роботу"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="fa3bccc6-6857-4be9-b090-b3a4891d9c1b"
+              LastKnownName="Внесення наказів про прийняття на роботу"
+              LastKnownLocation="Bakery.UML.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="44d51367-e940-4f47-a144-bd50ca681c14"
+                  name="Ведення особистих справ"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="a035f84f-b482-48cb-adea-37f7cef9c821"
+                  name="Внесення наказів про прийняття на роботу"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="ce958967-2d37-4a6b-8d06-7029ed6308ba"
+            isDerived="false"
+            sourceEndRoleName="Ведення особистих справ"
+            targetEndRoleName="Внесення наказів про звільнення"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="b82eb9df-853a-4b3c-ad1f-f0aab166f325"
+              LastKnownName="Внесення наказів про звільнення"
+              LastKnownLocation="Bakery.UML.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="4fcea717-3f05-4cf4-ae83-0ecd9bfd7e06"
+                  name="Ведення особистих справ"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="f782b905-74b7-4b0a-ab77-fd26b1f85be5"
+                  name="Внесення наказів про звільнення"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="ea12f685-4f4f-4af3-9793-d683ad9d35b2"
+            isDerived="false"
+            sourceEndRoleName="Ведення особистих справ"
+            targetEndRoleName="Внесення наказів про відпустку"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="2af23a99-ce6a-43f7-b3ce-d752e8a1db21"
+              LastKnownName="Внесення наказів про відпустку"
+              LastKnownLocation="Bakery.UML.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="51dd20ed-af8c-474f-b77b-ba0a1d5a32c2"
+                  name="Ведення особистих справ"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="28fd2e57-3f13-499f-8351-46eb7b2a1d49"
+                  name="Внесення наказів про відпустку"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="ec5cef27-1d6a-4392-9ad4-167f7d46484e"
+        name="Складання посадових інструкцій"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="fcdf8848-174f-41ac-a9b3-030306190f86"
+            isDerived="false"
+            sourceEndRoleName="Складання посадових інструкцій"
+            targetEndRoleName="Перегляд штатного розкладу"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="e2d10165-5fc6-4872-bcef-bac5d43b5b8b"
+              LastKnownName="Перегляд штатного розкладу"
+              LastKnownLocation="Bakery.UML.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="e735b794-98e8-479a-858b-f93d3e9443b7"
+                  name="Складання посадових інструкцій"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="d406f9dc-ba5d-4e70-b07d-068be3e211bc"
+                  name="Перегляд штатного розкладу"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="e2d10165-5fc6-4872-bcef-bac5d43b5b8b"
+        name="Перегляд штатного розкладу"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="fa3bccc6-6857-4be9-b090-b3a4891d9c1b"
+        name="Внесення наказів про прийняття на роботу"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="b82eb9df-853a-4b3c-ad1f-f0aab166f325"
+        name="Внесення наказів про звільнення"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="2af23a99-ce6a-43f7-b3ce-d752e8a1db21"
+        name="Внесення наказів про відпустку"
         isAbstract="false"
         isLeaf="false" />
     </packageHasNamedElement>
