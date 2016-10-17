@@ -1176,6 +1176,220 @@
         isAbstract="false"
         isLeaf="false" />
     </packageHasNamedElement>
+    <packageHasNamedElement>
+      <actor
+        Id="b15d3225-380b-4231-9fc3-acbc15c4e922"
+        name="Вантажник"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="5555903a-9e74-4da1-9fc8-cfb9acc25e48"
+            isDerived="false"
+            sourceEndRoleName="Вантажник"
+            targetEndRoleName="Оп-ля, я гружу"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="c3a35e32-33df-4ed7-b661-f7ddfd8b6017"
+              LastKnownName="Оп-ля, я гружу"
+              LastKnownLocation="Bakery.UML.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="372b7f20-d6de-431f-a899-04d92d70852d"
+                  name="Вантажник"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="8cb1bbe5-6dcf-4f46-996c-ae694b705d4b"
+                  name="Оп-ля, я гружу"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </actor>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <actor
+        Id="dfcf166c-671d-427e-942e-1a5b71e60fe1"
+        name="Комірник"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="c2b62fa9-204c-4e79-a37f-aa1a3023fe63"
+            isDerived="false"
+            sourceEndRoleName="Комірник"
+            targetEndRoleName="Складання накладних про надходження сировини"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="cb8cd202-1af6-47fd-8bac-72e70da7d2b2"
+              LastKnownName="Складання накладних про надходження сировини"
+              LastKnownLocation="Bakery.UML.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="05e0f893-35d4-4e89-8833-663f136a69c3"
+                  name="Комірник"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="2d2c0857-c87f-42a7-9d25-33ce71d6eda7"
+                  name="Складання накладних про надходження сировини"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </actor>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="cb8cd202-1af6-47fd-8bac-72e70da7d2b2"
+        name="Складання накладних про надходження сировини"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <actor
+        Id="ab723064-9be2-45d1-a4a5-80ee9c98bdc0"
+        name="Керівник"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="e8a4a564-1e61-4510-8933-23192e390b66"
+            isDerived="false"
+            sourceEndRoleName="Керівник"
+            targetEndRoleName="Актуалізація задач"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="e2ae5460-c080-498b-ac97-c9396eee3dba"
+              LastKnownName="Актуалізація задач"
+              LastKnownLocation="Bakery.UML.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="7994ad4f-600e-4957-accc-88ca934f5d10"
+                  name="Керівник"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="e522d4fe-55c1-46c6-8102-4a5ab0c8bb73"
+                  name="Актуалізація задач"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="487667bf-b93a-4c63-b3fd-cefd666e5880"
+            isDerived="false"
+            sourceEndRoleName="Керівник"
+            targetEndRoleName="Актуалізація задач1"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="03580e08-a324-4ea9-926a-b1bd8d3b620f"
+              LastKnownName="Перегляд задач (Період)"
+              LastKnownLocation="Bakery.UML.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="d0310649-09ca-4ea7-bbd4-c312376d5269"
+                  name="Керівник"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="09d37795-8334-45f9-b477-11a1e0841e26"
+                  name="Актуалізація задач1"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </actor>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="e2ae5460-c080-498b-ac97-c9396eee3dba"
+        name="Актуалізація задач"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="03580e08-a324-4ea9-926a-b1bd8d3b620f"
+        name="Перегляд задач (Період)"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="c3a35e32-33df-4ed7-b661-f7ddfd8b6017"
+        name="Оп-ля, я гружу"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
   </packagedElements>
   <primitiveType
     Id="220a3521-e091-4221-bae9-3ef9018e845c"

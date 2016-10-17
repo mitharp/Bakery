@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseModelRoot xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm10="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="789ccc05-747f-4686-b3bf-49eadc9ab978" name="Склад" linkedPackageId="fc07c46a-1a3f-46a3-99f6-9b64fea68cfc" xmlns="http://schemas.microsoft.com/dsltools/UseCaseModel">
+  <profileInstances>
+    <packageHasProfileInstances Id="63b6ffed-ae3a-4a94-9c31-9a28c1b33ae0">
+      <profileInstance Id="8f54b4d9-d376-41dd-b015-1588b3180bf1" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="7e579f39-5771-4ce1-8034-45e708cc465b">
+      <profileInstance Id="e702af61-72df-41a8-8ea9-80f31682f903" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <useCaseModelRootHasTypes>
+      <actor Id="449de1a4-f82f-4430-a3b1-82d8256accc6" name="Вантажник" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="b15d3225-380b-4231-9fc3-acbc15c4e922" />
+        <targetEnds>
+          <association Id="85b1f9f0-e545-46c9-86c6-f01ab6fb6d23" isDerived="false" sourceEndRoleName="Вантажник" targetEndRoleName="Оп-ля, я гружу" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="9cd36292-878b-45ec-b466-5f7ddf7ffbff" LastKnownName="Оп-ля, я гружу" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="ba230fc6-7217-4c07-8d5e-cfb03e067d89" name="Вантажник" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="372b7f20-d6de-431f-a899-04d92d70852d" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="60049e26-f948-41a8-adc2-a144b610d5a4" name="Оп-ля, я гружу" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="8cb1bbe5-6dcf-4f46-996c-ae694b705d4b" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="5555903a-9e74-4da1-9fc8-cfb9acc25e48" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="37190602-a161-404c-9d96-880457dd0d06" name="Комірник" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="dfcf166c-671d-427e-942e-1a5b71e60fe1" />
+        <targetEnds>
+          <association Id="f3d527d8-8357-4f3d-ae93-dc396fa141bf" isDerived="false" sourceEndRoleName="Комірник" targetEndRoleName="Складання накладних про надходження сировини" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="fab88dbc-9b91-4b51-9bba-29179e734511" LastKnownName="Складання накладних про надходження сировини" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="e0242d9b-ae5d-4fa4-bfe8-a941b6a3e2a7" name="Комірник" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="05e0f893-35d4-4e89-8833-663f136a69c3" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="62ddab0e-8eed-4631-8037-8c7035c3e58d" name="Складання накладних про надходження сировини" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="2d2c0857-c87f-42a7-9d25-33ce71d6eda7" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="c2b62fa9-204c-4e79-a37f-aa1a3023fe63" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="fab88dbc-9b91-4b51-9bba-29179e734511" name="Складання накладних про надходження сировини" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="cb8cd202-1af6-47fd-8bac-72e70da7d2b2" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="66828987-37bc-46c3-80e1-69cbaae68e70" name="Керівник" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="ab723064-9be2-45d1-a4a5-80ee9c98bdc0" />
+        <targetEnds>
+          <association Id="ed3770ad-dbd6-4d92-949a-bb81610217ec" isDerived="false" sourceEndRoleName="Керівник" targetEndRoleName="Актуалізація задач" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="0774d0a7-d830-452e-9a82-fcdcff07f613" LastKnownName="Актуалізація задач" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="7d6ba142-8a45-4ef7-a238-fe8645afacda" name="Керівник" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="7994ad4f-600e-4957-accc-88ca934f5d10" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="227eb60c-7a3b-484b-9a0b-d7e31d04ff9b" name="Актуалізація задач" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="e522d4fe-55c1-46c6-8102-4a5ab0c8bb73" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="e8a4a564-1e61-4510-8933-23192e390b66" />
+          </association>
+          <association Id="b3ee9385-7435-4a04-8c82-b6ae59dc8dc5" isDerived="false" sourceEndRoleName="Керівник" targetEndRoleName="Актуалізація задач1" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="83fa724f-7102-4d71-bdb1-c3d0c7ca59e3" LastKnownName="Перегляд задач (Період)" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="4164ddcc-b7d2-448e-baa5-7dd3b82fd5c0" name="Керівник" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="d0310649-09ca-4ea7-bbd4-c312376d5269" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="af2d1555-2887-4060-bd5d-39cb98d45037" name="Актуалізація задач1" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="09d37795-8334-45f9-b477-11a1e0841e26" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="487667bf-b93a-4c63-b3fd-cefd666e5880" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="0774d0a7-d830-452e-9a82-fcdcff07f613" name="Актуалізація задач" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="e2ae5460-c080-498b-ac97-c9396eee3dba" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="83fa724f-7102-4d71-bdb1-c3d0c7ca59e3" name="Перегляд задач (Період)" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="03580e08-a324-4ea9-926a-b1bd8d3b620f" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="9cd36292-878b-45ec-b466-5f7ddf7ffbff" name="Оп-ля, я гружу" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="c3a35e32-33df-4ed7-b661-f7ddfd8b6017" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+  </packagedElements>
+  <package Id="fc07c46a-1a3f-46a3-99f6-9b64fea68cfc" name="Bakery.UML">
+    <elementDefinition Id="efdd1042-ac13-401a-a8f1-02bb11d37e9d" />
+  </package>
+</useCaseModelRoot>
