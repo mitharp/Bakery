@@ -29,6 +29,13 @@
       <SubType>Content</SubType>
       <DependentUpon>Администрация.usecasediagram</DependentUpon>
     </Content>
+    <Content Include="Бухгалтерия.usecasediagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Бухгалтерия.usecasediagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Бухгалтерия.usecasediagram</DependentUpon>
+    </Content>
     <Content Include="Отдел кадров.usecasediagram">
       <SubType>Content</SubType>
     </Content>

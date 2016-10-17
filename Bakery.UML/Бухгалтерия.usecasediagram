@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseModelRoot xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm10="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="c244c65e-6e4a-4273-9929-0cba786d7a82" name="Бухгалтерия" linkedPackageId="1a2566cf-6ef0-44ad-aaee-69e2c6838865" xmlns="http://schemas.microsoft.com/dsltools/UseCaseModel">
+  <profileInstances>
+    <packageHasProfileInstances Id="14ae1856-314d-45a4-809a-4e35f60fddb1">
+      <profileInstance Id="92d77bbe-bcbb-4cc5-8d92-059cf46fd3a9" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="decc1dbf-a4cf-4c56-b4c5-c6f84a5d5538">
+      <profileInstance Id="abeb6241-078f-4cfe-87cb-4f63728a5816" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <useCaseModelRootHasTypes>
+      <actor Id="10801fba-8a97-426c-a68d-7fe23584693d" name="Бухгалтер-касир" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="75a4e2ff-5682-400e-ab41-c217cb0199a0" />
+        <targetEnds>
+          <association Id="6f8539e0-c028-42d3-85c5-b7686cde7b03" isDerived="false" sourceEndRoleName="Бухгалтер-касир" targetEndRoleName="Перегляд фінансової звітності та балансу підприємства" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="63a01ed4-a77b-4bc9-9717-311f43535cba" LastKnownName="Перегляд фінансової звітності та балансу підприємства" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="9bc0af1f-7302-4bae-8b55-410d1893cdaa" name="Бухгалтер-касир" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="f0f3a3a6-cf08-4fb7-98e2-4e3da81c74a3" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="0828d8c7-8ac0-4894-9a49-eca1c89a32ec" name="Перегляд фінансової звітності та балансу підприємства" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="8669e04f-31e3-4f2e-bf2e-289d09ee8b07" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="d4be956c-9bcf-41cd-8208-9e31014b2269" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="25b9d600-99d9-4e5a-84d7-338dbb9fb5e1" name="Головний бухгалтер" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="945fdf2e-6544-4caa-8d76-a8f88e637d32" />
+        <targetEnds>
+          <association Id="43e873fa-184d-4887-bdc7-bbd29d4e3e5c" isDerived="false" sourceEndRoleName="Керівник" targetEndRoleName="Актуалізація задач" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="a54e93d0-7345-40be-8f84-3257f34aaa21" LastKnownName="Актуалізація задач" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="888bf0c1-0e55-4cb9-8d70-e05ec9f0274e" name="Керівник" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="9387027b-94b2-43b2-8938-4b39a37ae3f9" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="65f66078-9090-443e-bec4-e578b584e204" name="Актуалізація задач" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="179cd0a1-5309-4f8c-99f6-3e3ba194aded" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="0f256bb1-67e6-4ce5-add8-97db35c48667" />
+          </association>
+          <association Id="8047b779-2f8f-4299-82f4-c11bcd4db9bb" isDerived="false" sourceEndRoleName="Керівник" targetEndRoleName="Актуалізація задач1" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="01a7b3bb-220d-4eb2-bb42-a5fa7cc05064" LastKnownName="Перегляд задач (Період)" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="e85e77f6-54a9-4594-8201-b9c2f082aaaf" name="Керівник" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="9dd202e8-2e54-48b2-a32c-853bedee5837" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="0e76e215-c2db-4ff5-a6b3-fee514b7537c" name="Актуалізація задач1" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="b8417d4c-8bba-48a0-b074-98b5221fd61c" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="d2258d2e-8921-4f96-8c87-e3333d4afbc9" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="a54e93d0-7345-40be-8f84-3257f34aaa21" name="Актуалізація задач" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="ecfda5f4-a1b1-4695-aa5e-51b4d0edece5" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="01a7b3bb-220d-4eb2-bb42-a5fa7cc05064" name="Перегляд задач (Період)" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="b20ebc08-bf81-4a47-abde-30afc6039936" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="63a01ed4-a77b-4bc9-9717-311f43535cba" name="Перегляд фінансової звітності та балансу підприємства" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="7b8fda14-418d-46ce-8d9b-41e9be407c67" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+  </packagedElements>
+  <package Id="1a2566cf-6ef0-44ad-aaee-69e2c6838865" name="Bakery.UML">
+    <elementDefinition Id="efdd1042-ac13-401a-a8f1-02bb11d37e9d" />
+  </package>
+</useCaseModelRoot>

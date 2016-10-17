@@ -797,6 +797,171 @@
         isAbstract="false"
         isLeaf="false" />
     </packageHasNamedElement>
+    <packageHasNamedElement>
+      <actor
+        Id="75a4e2ff-5682-400e-ab41-c217cb0199a0"
+        name="Бухгалтер-касир"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="d4be956c-9bcf-41cd-8208-9e31014b2269"
+            isDerived="false"
+            sourceEndRoleName="Бухгалтер-касир"
+            targetEndRoleName="Перегляд фінансової звітності та балансу підприємства"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="7b8fda14-418d-46ce-8d9b-41e9be407c67"
+              LastKnownName="Перегляд фінансової звітності та балансу підприємства"
+              LastKnownLocation="Bakery.UML.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="f0f3a3a6-cf08-4fb7-98e2-4e3da81c74a3"
+                  name="Бухгалтер-касир"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="8669e04f-31e3-4f2e-bf2e-289d09ee8b07"
+                  name="Перегляд фінансової звітності та балансу підприємства"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </actor>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <actor
+        Id="945fdf2e-6544-4caa-8d76-a8f88e637d32"
+        name="Головний бухгалтер"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="0f256bb1-67e6-4ce5-add8-97db35c48667"
+            isDerived="false"
+            sourceEndRoleName="Керівник"
+            targetEndRoleName="Актуалізація задач"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="ecfda5f4-a1b1-4695-aa5e-51b4d0edece5"
+              LastKnownName="Актуалізація задач"
+              LastKnownLocation="Bakery.UML.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="9387027b-94b2-43b2-8938-4b39a37ae3f9"
+                  name="Керівник"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="179cd0a1-5309-4f8c-99f6-3e3ba194aded"
+                  name="Актуалізація задач"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="d2258d2e-8921-4f96-8c87-e3333d4afbc9"
+            isDerived="false"
+            sourceEndRoleName="Керівник"
+            targetEndRoleName="Актуалізація задач1"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="b20ebc08-bf81-4a47-abde-30afc6039936"
+              LastKnownName="Перегляд задач (Період)"
+              LastKnownLocation="Bakery.UML.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="9dd202e8-2e54-48b2-a32c-853bedee5837"
+                  name="Керівник"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="b8417d4c-8bba-48a0-b074-98b5221fd61c"
+                  name="Актуалізація задач1"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </actor>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="ecfda5f4-a1b1-4695-aa5e-51b4d0edece5"
+        name="Актуалізація задач"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="b20ebc08-bf81-4a47-abde-30afc6039936"
+        name="Перегляд задач (Період)"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="7b8fda14-418d-46ce-8d9b-41e9be407c67"
+        name="Перегляд фінансової звітності та балансу підприємства"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <artifact
+        Id="4383af51-213c-4f60-a933-e9ec12b94f8e"
+        name="ваепнрг"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
   </packagedElements>
   <primitiveType
     Id="220a3521-e091-4221-bae9-3ef9018e845c"
