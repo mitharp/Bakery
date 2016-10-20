@@ -1,5 +1,23 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm10="http://schemas.microsoft.com/dsltools/UseCaseModel" dslVersion="1.0.0.0" Id="1e897dab-8745-42aa-abed-00f79d043a19" name="UMLClassDiagram1" linkedPackageId="e5026dd3-cf6d-426d-9d3e-be953e9560f6" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <packagedElements>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="d9c50cfc-b9d1-4242-bcef-789073ead48e" name="Журнал реєстрації вхідної кореспонденції" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="c1c2a83d-4b2f-41ed-b70b-255036a7fe9c" />
+        <ownedAttributesInternal>
+          <property Id="679a5ca1-f69e-473d-96e6-8b42bf4cf697" name="№" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="6e658f6d-4d1e-4051-93bc-f4725d086a6a" />
+          </property>
+          <property Id="4d9d4282-9fac-400a-8ee8-5a33d1ffd99e" name="Дата" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="7176670b-5614-4fcc-99d5-1b08de9ebeb0" />
+          </property>
+          <property Id="01c82327-d41e-4c6b-86d3-3eb92cd9543b" name="Attribute1" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="9231cdb6-5ab3-49bc-b22e-38f2c4cd3140" />
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+  </packagedElements>
   <package Id="e5026dd3-cf6d-426d-9d3e-be953e9560f6" name="Bakery.UML">
     <elementDefinition Id="efdd1042-ac13-401a-a8f1-02bb11d37e9d" />
     <profileInstances>

@@ -1,4 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <logicalClassDesignerDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="UMLClassDiagram1">
   <logicalClassDesignerModelMoniker Id="1e897dab-8745-42aa-abed-00f79d043a19" />
+  <nestedChildShapes>
+    <classShape Id="bcc886b1-a19f-4a94-8d86-87e8173d44c6" absoluteBounds="1.875, 1.25, 3.375, 1.3828124701976781" hideQualifiedName="false" increaseHeight="0" customColor="181, 193, 223">
+      <classMoniker Id="d9c50cfc-b9d1-4242-bcef-789073ead48e" LastKnownName="Журнал реєстрації вхідної кореспонденції" />
+      <nestedChildShapes>
+        <AttributeElementListCompartment Id="f42cfddb-327b-49a6-9924-03a463a33003" absoluteBounds="1.89, 1.6400000000000001, 3.3449999999999998, 0.68164060264825821" name="AttributesCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <OperationElementListCompartment Id="55242155-5a3b-435d-a86f-8bd6a71c5e1f" absoluteBounds="1.89, 2.3316406026482586, 3.3449999999999998, 0.20117186754941963" name="OperationsCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
 </logicalClassDesignerDiagram>
