@@ -1,19 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <useCaseModelRoot xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm10="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="3d173b8f-cba0-4c96-a893-77d23c98a245" name="Пекарня" linkedPackageId="6377f06a-21bb-47e0-88d0-4eb8b7550598" xmlns="http://schemas.microsoft.com/dsltools/UseCaseModel">
-  <profileInstances>
-    <packageHasProfileInstances Id="e9c32f31-502f-4b3d-9cb0-f071682f94b0">
-      <profileInstance Id="27774019-6846-4396-bb03-94a610199fe9" name="StandardProfileL2">
-        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
-      </profileInstance>
-      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
-    </packageHasProfileInstances>
-    <packageHasProfileInstances Id="b91a5c3c-a4cc-4561-b247-30a68614ea20">
-      <profileInstance Id="f558f86d-4b32-44ef-983a-1427e28f7f47" name="StandardProfileL3">
-        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
-      </profileInstance>
-      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
-    </packageHasProfileInstances>
-  </profileInstances>
   <packagedElements>
     <useCaseModelRootHasTypes>
       <actor Id="b2e5531f-0c0b-4db3-ba66-b01079425fea" name="Кондитери" isAbstract="false" isLeaf="false">
@@ -162,5 +148,19 @@
   </packagedElements>
   <package Id="6377f06a-21bb-47e0-88d0-4eb8b7550598" name="Bakery.UML">
     <elementDefinition Id="efdd1042-ac13-401a-a8f1-02bb11d37e9d" />
+    <profileInstances>
+      <packageHasProfileInstances Id="e9c32f31-502f-4b3d-9cb0-f071682f94b0">
+        <profileInstance Id="27774019-6846-4396-bb03-94a610199fe9" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="b91a5c3c-a4cc-4561-b247-30a68614ea20">
+        <profileInstance Id="f558f86d-4b32-44ef-983a-1427e28f7f47" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+    </profileInstances>
   </package>
 </useCaseModelRoot>

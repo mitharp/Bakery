@@ -2,23 +2,23 @@
 <useCaseDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="Отдел реализации">
   <useCaseModelRootMoniker Id="486742f6-0846-43d9-b56a-7d231cc0e4ba" />
   <nestedChildShapes>
-    <actorShape Id="0908a1d2-092b-437b-b669-c82d3a9d6248" absoluteBounds="2.5, 2.375, 0.5, 0.5" isReference="false" heightOffset="0">
+    <actorShape Id="0908a1d2-092b-437b-b669-c82d3a9d6248" absoluteBounds="4.125, 2.125, 0.5, 0.5" isReference="false" heightOffset="0">
       <actorMoniker Id="84968570-65ab-4722-92ce-a327574bccd3" LastKnownName="Рекламний менеджер" />
       <relativeChildShapes />
     </actorShape>
-    <actorShape Id="8e5fd2a8-0ae6-4b3e-8276-6a1fdb7bab8d" absoluteBounds="2.5, 3.5, 0.5, 0.5" isReference="false" heightOffset="0">
+    <actorShape Id="8e5fd2a8-0ae6-4b3e-8276-6a1fdb7bab8d" absoluteBounds="5.25, 2.375, 0.5, 0.5" isReference="false" heightOffset="0">
       <actorMoniker Id="59c9b621-1894-44da-bc11-d3a69ee50cd1" LastKnownName="Менеджер зі збуту готової продукції" />
       <relativeChildShapes />
     </actorShape>
-    <actorShape Id="eb3d2060-1837-469c-8013-82b2839b75e4" absoluteBounds="2.5, 1, 0.5, 0.5" isReference="false" heightOffset="0">
+    <actorShape Id="eb3d2060-1837-469c-8013-82b2839b75e4" absoluteBounds="0.875, 1.125, 0.5, 0.5" isReference="false" heightOffset="0">
       <actorMoniker Id="64903f06-5b5e-4239-a89a-008d9649ca47" LastKnownName="Керівник" />
       <relativeChildShapes />
     </actorShape>
-    <useCaseShape Id="77929cdb-cf58-4f68-846e-fc1c86633c3b" absoluteBounds="4.75, 0.75, 1.5, 0.5" customColor="238, 237, 131" heightOffset="0">
+    <useCaseShape Id="77929cdb-cf58-4f68-846e-fc1c86633c3b" absoluteBounds="2.75, 0.75, 1.5, 0.5" customColor="238, 237, 131" heightOffset="0">
       <useCaseMoniker Id="f7d2e9a7-bd03-4021-8968-3e90ee22d53a" LastKnownName="Актуалізація задач" />
       <relativeChildShapes />
     </useCaseShape>
-    <useCaseAssociationConnector edgePoints="[(3 : 1.22727272727273); (4.7764271340717 : 1.06577935144803)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+    <useCaseAssociationConnector edgePoints="[(1.375 : 1.33552631578947); (2.82219662082985 : 1.10702158618476)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
       <associationMoniker Id="0deb270a-543c-40d5-a0d0-4211cdafd39f" />
       <relativeChildShapes />
       <nodes>
@@ -26,11 +26,11 @@
         <useCaseShapeMoniker Id="77929cdb-cf58-4f68-846e-fc1c86633c3b" />
       </nodes>
     </useCaseAssociationConnector>
-    <useCaseShape Id="f9af629d-0bcf-4718-a42b-58ce4419959f" absoluteBounds="4.75, 1.625, 1.5, 0.5" customColor="238, 237, 131" heightOffset="0">
+    <useCaseShape Id="f9af629d-0bcf-4718-a42b-58ce4419959f" absoluteBounds="3.375, 1.375, 1.5, 0.5" customColor="238, 237, 131" heightOffset="0">
       <useCaseMoniker Id="7a8bc227-0f88-498e-b6a3-e33d93c97f34" LastKnownName="Перегляд задач (Період)" />
       <relativeChildShapes />
     </useCaseShape>
-    <useCaseAssociationConnector edgePoints="[(3 : 1.30681818181818); (4.88032949289434 : 1.73416579383962)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+    <useCaseAssociationConnector edgePoints="[(1.375 : 1.39583333333333); (3.397393124891 : 1.56436609374092)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
       <associationMoniker Id="59c038dd-8208-4c49-9643-9ab53370c4f9" />
       <relativeChildShapes />
       <nodes>
@@ -38,11 +38,11 @@
         <useCaseShapeMoniker Id="f9af629d-0bcf-4718-a42b-58ce4419959f" />
       </nodes>
     </useCaseAssociationConnector>
-    <useCaseShape Id="d1a3a488-64ac-4042-b41a-26ca560c8bd1" absoluteBounds="4.75, 3.375, 1.625, 1" customColor="238, 237, 131" heightOffset="0">
-      <useCaseMoniker Id="5460cb57-ad9c-4651-aca8-d92f54f41bc5" LastKnownName="Складання накладних на виготовлену продукцію" />
+    <useCaseShape Id="d1a3a488-64ac-4042-b41a-26ca560c8bd1" absoluteBounds="7, 2, 1.625, 1.25" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="5460cb57-ad9c-4651-aca8-d92f54f41bc5" LastKnownName="Складання та реєстрація видаткових накладних на реалізовану продукцію" />
       <relativeChildShapes />
     </useCaseShape>
-    <useCaseAssociationConnector edgePoints="[(3 : 3.76111111111111); (4.75211076624591 : 3.83898270072204)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+    <useCaseAssociationConnector edgePoints="[(5.75 : 2.625); (7 : 2.625)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
       <associationMoniker Id="83483c82-012c-4c06-a3a7-033e861633e9" />
       <relativeChildShapes />
       <nodes>
@@ -50,11 +50,11 @@
         <useCaseShapeMoniker Id="d1a3a488-64ac-4042-b41a-26ca560c8bd1" />
       </nodes>
     </useCaseAssociationConnector>
-    <useCaseShape Id="92c202f1-e40c-4e7a-b270-8d996e59652b" absoluteBounds="4.75, 2.25, 1.625, 0.875" customColor="238, 237, 131" heightOffset="0">
+    <useCaseShape Id="92c202f1-e40c-4e7a-b270-8d996e59652b" absoluteBounds="6.5, 0.875, 1.625, 0.875" customColor="238, 237, 131" heightOffset="0">
       <useCaseMoniker Id="15c15bcb-8be7-4826-a034-c15f3fc81b19" LastKnownName="Підтвердження виконання задачі" />
       <relativeChildShapes />
     </useCaseShape>
-    <useCaseAssociationConnector edgePoints="[(3 : 2.62250431229932); (4.76461643312762 : 2.60488858618499)]" fixedFrom="Algorithm" fixedTo="Caller" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+    <useCaseAssociationConnector edgePoints="[(4.625 : 2.28457446808511); (6.63804022002283 : 1.55645353743855)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
       <associationMoniker Id="3ca660a2-59ac-4501-ae18-b3a685f0b5e5" />
       <relativeChildShapes />
       <nodes>
@@ -62,7 +62,7 @@
         <useCaseShapeMoniker Id="92c202f1-e40c-4e7a-b270-8d996e59652b" />
       </nodes>
     </useCaseAssociationConnector>
-    <useCaseAssociationConnector edgePoints="[(3 : 3.62678476016763); (4.76089565237561 : 2.75890803965866)]" fixedFrom="Algorithm" fixedTo="Caller" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+    <useCaseAssociationConnector edgePoints="[(5.75 : 2.44396551724138); (6.82767900234504 : 1.66357727416393)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
       <associationMoniker Id="5673ef79-6dbe-4526-bdb6-f6edde40ef45" />
       <relativeChildShapes />
       <nodes>
@@ -70,11 +70,11 @@
         <useCaseShapeMoniker Id="92c202f1-e40c-4e7a-b270-8d996e59652b" />
       </nodes>
     </useCaseAssociationConnector>
-    <useCaseShape Id="f47fe7d2-e1ee-474d-bb01-780ca25a5912" absoluteBounds="4.875, 4.625, 1.375, 0.75" customColor="238, 237, 131" heightOffset="0">
-      <useCaseMoniker Id="d29a130d-3315-4c02-9c36-1b7a0e9287a7" LastKnownName="Складання рахунків-фактур" />
+    <useCaseShape Id="f47fe7d2-e1ee-474d-bb01-780ca25a5912" absoluteBounds="6.75, 3.5, 1.375, 0.75" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="d29a130d-3315-4c02-9c36-1b7a0e9287a7" LastKnownName="Складання та реєстрація рахунків-фактур" />
       <relativeChildShapes />
     </useCaseShape>
-    <useCaseAssociationConnector edgePoints="[(3 : 3.89446770805544); (4.87611810427829 : 4.97862163832107)]" fixedFrom="Algorithm" fixedTo="Caller" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+    <useCaseAssociationConnector edgePoints="[(5.75 : 2.78629032258065); (6.99362869943081 : 3.58863141898762)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
       <associationMoniker Id="d95cc436-7c6f-4b2e-8b5b-9bd6b5911372" />
       <relativeChildShapes />
       <nodes>
@@ -82,16 +82,28 @@
         <useCaseShapeMoniker Id="f47fe7d2-e1ee-474d-bb01-780ca25a5912" />
       </nodes>
     </useCaseAssociationConnector>
-    <useCaseShape Id="b200f375-7c8e-4e7b-b106-fb05b1ea5092" absoluteBounds="6.5, 1, 1.875, 1" customColor="238, 237, 131" heightOffset="0">
-      <useCaseMoniker Id="5a7477c2-f8f9-4308-9896-999dcf6f718a" LastKnownName="Перегляд параметризованих звітів за накладними (Період)" />
+    <useCaseShape Id="b200f375-7c8e-4e7b-b106-fb05b1ea5092" absoluteBounds="2.75, 3, 1.875, 1.25" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="5a7477c2-f8f9-4308-9896-999dcf6f718a" LastKnownName="Перегляд параметризованих звітів за видатковими накладними (Період, Споживач, Вид продукції)" />
       <relativeChildShapes />
     </useCaseShape>
-    <useCaseAssociationConnector edgePoints="[(3 : 1.26333333333333); (6.50465263417813 : 1.4502481404895)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+    <useCaseAssociationConnector edgePoints="[(1.375 : 1.59451219512195); (3.1205850873205 : 3.12722105228142)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
       <associationMoniker Id="3db60521-e2e5-43f7-bccb-17f63e8ec196" />
       <relativeChildShapes />
       <nodes>
         <actorShapeMoniker Id="eb3d2060-1837-469c-8013-82b2839b75e4" />
         <useCaseShapeMoniker Id="b200f375-7c8e-4e7b-b106-fb05b1ea5092" />
+      </nodes>
+    </useCaseAssociationConnector>
+    <useCaseShape Id="fc1c86f8-6b89-4b5b-829e-4f50bf064992" absoluteBounds="0.5, 3, 2.125, 1.375" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="27626e4c-fe57-4cec-a151-77a29e4dbeba" LastKnownName="Перегляд параметризованих звітів за  рахунками-фактурами (Період, Споживач, Вид продукції)" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <useCaseAssociationConnector edgePoints="[(1.1722972972973 : 1.625); (1.43339619754717 : 3.00509418703504)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+      <associationMoniker Id="94a544bf-215e-43dc-9814-092b7806c592" />
+      <relativeChildShapes />
+      <nodes>
+        <actorShapeMoniker Id="eb3d2060-1837-469c-8013-82b2839b75e4" />
+        <useCaseShapeMoniker Id="fc1c86f8-6b89-4b5b-829e-4f50bf064992" />
       </nodes>
     </useCaseAssociationConnector>
   </nestedChildShapes>

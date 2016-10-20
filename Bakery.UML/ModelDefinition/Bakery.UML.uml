@@ -103,13 +103,52 @@
               </associationHasOwnedEnds>
             </relationshipOwnedElementsInternal>
           </association>
+          <association
+            Id="44bf081d-7815-440e-88d4-342dfded6603"
+            isDerived="false"
+            sourceEndRoleName="Директор"
+            targetEndRoleName="Прийняття рішень щодо виконавчої дисципліни"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="49b662bc-0a02-4c5a-b54c-8ab9c1f9a5c1"
+              LastKnownName="Прийняття рішень щодо виконавчої дисципліни"
+              LastKnownLocation="Bakery.UML.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="3d458f24-f979-41d1-83be-87590deaeb2f"
+                  name="Директор"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="bc53664e-d336-458f-9622-4eff2d05e6a0"
+                  name="Прийняття рішень щодо виконавчої дисципліни"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
         </targetEnds>
       </actor>
     </packageHasNamedElement>
     <packageHasNamedElement>
       <actor
         Id="34fba482-b6df-4b3c-8686-c7558ed49efa"
-        name="Офис-менеджер"
+        name="Секретар"
         isAbstract="false"
         isLeaf="false">
         <targetEnds>
@@ -921,6 +960,45 @@
               </associationHasOwnedEnds>
             </relationshipOwnedElementsInternal>
           </association>
+          <association
+            Id="dc9b6367-6d62-4690-a13a-64a83e0fd8d4"
+            isDerived="false"
+            sourceEndRoleName="Бухгалтер-касир"
+            targetEndRoleName="Реєстрація вхідних документів та договорів"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="a2f9c605-b5ae-4fa5-8104-4c2fa743e08d"
+              LastKnownName="Реєстрація вхідних документів та договорів"
+              LastKnownLocation="Bakery.UML.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="81531475-6117-4c60-9254-b93f07b19fe2"
+                  name="Бухгалтер-касир"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="4d7d74b7-9647-4a10-941f-f7e25a6c0f95"
+                  name="Реєстрація вхідних документів та договорів"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
         </targetEnds>
       </actor>
     </packageHasNamedElement>
@@ -1125,6 +1203,45 @@
               </associationHasOwnedEnds>
             </relationshipOwnedElementsInternal>
           </association>
+          <association
+            Id="f524ef21-9092-4c18-8d20-1b0d25d75618"
+            isDerived="false"
+            sourceEndRoleName="Менеджер з постачання сировини"
+            targetEndRoleName="Введення даних з постачання сировини"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="2459f72e-bc47-428e-bd1f-3d079367902c"
+              LastKnownName="Введення даних з постачання сировини"
+              LastKnownLocation="Bakery.UML.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="c4bc95cc-121a-4ce2-9bae-0c4833839585"
+                  name="Менеджер з постачання сировини"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="e9b71c0a-16a1-4820-9a63-a8dec69682eb"
+                  name="Введення даних з постачання сировини"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
         </targetEnds>
       </actor>
     </packageHasNamedElement>
@@ -1203,6 +1320,45 @@
                 <memberEnd
                   Id="c12b6e01-c82d-451e-a436-74c7634821ae"
                   name="Підтвердження виконання задачі"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="921d95ab-f719-4350-a948-5c133492a6eb"
+            isDerived="false"
+            sourceEndRoleName="Менеджер з постачання устаткування"
+            targetEndRoleName="Введення даних з постачання устаткування"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="18bb4d2d-a419-4ce9-bcbf-d0aa33270435"
+              LastKnownName="Введення даних з постачання устаткування"
+              LastKnownLocation="Bakery.UML.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="735fe51e-b400-4590-aa5a-94d276b7043a"
+                  name="Менеджер з постачання устаткування"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="bd03f379-cb8e-4b33-82c9-85ddc447e4e3"
+                  name="Введення даних з постачання устаткування"
                   isLeaf="false"
                   isStatic="false"
                   isReadOnly="false"
@@ -1590,6 +1746,45 @@
                 <memberEnd
                   Id="09d37795-8334-45f9-b477-11a1e0841e26"
                   name="Актуалізація задач1"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="003a2a73-d6e9-4bf6-a05f-886c921a1c0d"
+            isDerived="false"
+            sourceEndRoleName="Керівник"
+            targetEndRoleName="Перегляд параметризованих звітів про надходження, видачу та наявність (Сировина, Період, Вид руху, Постачальник)"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="38e3e648-08eb-455c-99c5-203adcdc7756"
+              LastKnownName="Перегляд параметризованих звітів про надходження, видачу та наявність (Сировина, Період, Вид руху, Постачальник)"
+              LastKnownLocation="Bakery.UML.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="ed95f1db-f465-4a37-af06-11ee82f666ce"
+                  name="Керівник"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="0cd4caca-4a6a-4dc0-bb0b-f04f947ab09a"
+                  name="Перегляд параметризованих звітів про надходження, видачу та наявність (Сировина, Період, Вид руху, Постачальник)"
                   isLeaf="false"
                   isStatic="false"
                   isReadOnly="false"
@@ -2243,6 +2438,45 @@
               </associationHasOwnedEnds>
             </relationshipOwnedElementsInternal>
           </association>
+          <association
+            Id="cc5b7eff-24d6-4bec-a389-88741092a30f"
+            isDerived="false"
+            sourceEndRoleName="Керівник"
+            targetEndRoleName="Перегляд параметризованого звіту про надходження/ видачу/наявність (Сировина, Період, Вид руху, Постачальник)"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="6ead0589-26dd-4d84-89fc-71f96b7ebcc3"
+              LastKnownName="Перегляд параметризованого звіту про надходження/ видачу/наявність (Сировина, Період, Вид руху, Постачальник)"
+              LastKnownLocation="Bakery.UML.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="f3288219-1c91-4594-a177-eff4ce2c9eae"
+                  name="Керівник"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="acbd9052-bea9-4a20-ae67-af574b8ce771"
+                  name="Перегляд параметризованого звіту про надходження/ видачу/наявність (Сировина, Період, Вид руху, Постачальник)"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
         </targetEnds>
       </actor>
     </packageHasNamedElement>
@@ -2378,7 +2612,7 @@
             isAbstract="false">
             <useCaseMoniker
               Id="32c465fa-c68e-4fbe-861f-e4617495939c"
-              LastKnownName="Складання накладних на виготовлену продукцію"
+              LastKnownName="Складання та реєстрація видаткових накладних на реалізовану продукцію"
               LastKnownLocation="Bakery.UML.uml" />
             <relationshipOwnedElementsInternal>
               <associationHasOwnedEnds>
@@ -2417,7 +2651,7 @@
             isAbstract="false">
             <useCaseMoniker
               Id="8d56ef6b-fca9-4768-9a49-c15cf4036acf"
-              LastKnownName="Складання рахунків-фактур"
+              LastKnownName="Складання та реєстрація рахунків-фактур"
               LastKnownLocation="Bakery.UML.uml" />
             <relationshipOwnedElementsInternal>
               <associationHasOwnedEnds>
@@ -2551,7 +2785,7 @@
             isAbstract="false">
             <useCaseMoniker
               Id="080b5666-caa2-4b9d-beac-b0f33beac4e2"
-              LastKnownName="Перегляд параметризованих звітів за накладними (Період)"
+              LastKnownName="Перегляд параметризованих звітів за видатковими накладними (Період, Споживач, Вид продукції)"
               LastKnownLocation="Bakery.UML.uml" />
             <relationshipOwnedElementsInternal>
               <associationHasOwnedEnds>
@@ -2571,6 +2805,45 @@
                 <memberEnd
                   Id="6eef8573-07b4-4827-9e87-c10332a62705"
                   name="Перегляд параметризованих звітів за накладними (Період)"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="fa4f49c7-f175-4d0e-bd8d-b146ac09e69f"
+            isDerived="false"
+            sourceEndRoleName="Керівник"
+            targetEndRoleName="Перегляд параметризованих звітів за  рахунками-фактурами (Період)"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="5f36d280-95ae-4b65-abf0-a14d4de18b81"
+              LastKnownName="Перегляд параметризованих звітів за  рахунками-фактурами (Період, Споживач, Вид продукції)"
+              LastKnownLocation="Bakery.UML.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="47eba631-5b68-46b8-8703-c7d0a067ffee"
+                  name="Керівник"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="fc0fdeb0-0c3c-4ca7-825f-4ecb0d76ea17"
+                  name="Перегляд параметризованих звітів за  рахунками-фактурами (Період)"
                   isLeaf="false"
                   isStatic="false"
                   isReadOnly="false"
@@ -2601,7 +2874,7 @@
     <packageHasNamedElement>
       <useCase
         Id="32c465fa-c68e-4fbe-861f-e4617495939c"
-        name="Складання накладних на виготовлену продукцію"
+        name="Складання та реєстрація видаткових накладних на реалізовану продукцію"
         isAbstract="false"
         isLeaf="false" />
     </packageHasNamedElement>
@@ -2615,14 +2888,127 @@
     <packageHasNamedElement>
       <useCase
         Id="8d56ef6b-fca9-4768-9a49-c15cf4036acf"
-        name="Складання рахунків-фактур"
+        name="Складання та реєстрація рахунків-фактур"
         isAbstract="false"
         isLeaf="false" />
     </packageHasNamedElement>
     <packageHasNamedElement>
       <useCase
         Id="080b5666-caa2-4b9d-beac-b0f33beac4e2"
-        name="Перегляд параметризованих звітів за накладними (Період)"
+        name="Перегляд параметризованих звітів за видатковими накладними (Період, Споживач, Вид продукції)"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="5f36d280-95ae-4b65-abf0-a14d4de18b81"
+        name="Перегляд параметризованих звітів за  рахунками-фактурами (Період, Споживач, Вид продукції)"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="2459f72e-bc47-428e-bd1f-3d079367902c"
+        name="Введення даних з постачання сировини"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="49b662bc-0a02-4c5a-b54c-8ab9c1f9a5c1"
+        name="Прийняття рішень щодо виконавчої дисципліни"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="3362c2f5-4e84-49df-b933-8ebc720b6847"
+            isDerived="false"
+            sourceEndRoleName="Прийняття рішень щодо виконавчої дисципліни"
+            targetEndRoleName="Перегляд звітів по журналах"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="2ec749d9-4c75-493c-83ee-dc7b996cbd9a"
+              LastKnownName="Перегляд звітів по журналах"
+              LastKnownLocation="Bakery.UML.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="fa9630ae-1996-4956-9a1b-c4b91db5c5be"
+                  name="Прийняття рішень щодо виконавчої дисципліни"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="632b2f74-ee0d-461a-9062-d8d2e83378b5"
+                  name="Перегляд звітів по журналах"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="2ec749d9-4c75-493c-83ee-dc7b996cbd9a"
+        name="Перегляд звітів по журналах"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="29462acf-8220-41f1-afe9-d7468fabfbde"
+        name="Class1"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="ce9a2038-7c7a-4586-93d5-a2223cad8858"
+        name="Interface1"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="18bb4d2d-a419-4ce9-bcbf-d0aa33270435"
+        name="Введення даних з постачання устаткування"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="a2f9c605-b5ae-4fa5-8104-4c2fa743e08d"
+        name="Реєстрація вхідних документів та договорів"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="6ead0589-26dd-4d84-89fc-71f96b7ebcc3"
+        name="Перегляд параметризованого звіту про надходження/ видачу/наявність (Сировина, Період, Вид руху, Постачальник)"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="38e3e648-08eb-455c-99c5-203adcdc7756"
+        name="Перегляд параметризованих звітів про надходження, видачу та наявність (Сировина, Період, Вид руху, Постачальник)"
         isAbstract="false"
         isLeaf="false" />
     </packageHasNamedElement>

@@ -1,19 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<useCaseModelRoot xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm10="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="1c137a9a-b66d-4741-8f87-cdd10408c3c4" name="UMLUseCaseDiagram1" linkedPackageId="07004173-285c-499d-ad59-3624eb933e31" xmlns="http://schemas.microsoft.com/dsltools/UseCaseModel">
-  <profileInstances>
-    <packageHasProfileInstances Id="8191fd70-29eb-4f44-b3f0-076023a99910">
-      <profileInstance Id="bf3a09d9-04a6-4d91-8912-63280e99ed50" name="StandardProfileL2">
-        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
-      </profileInstance>
-      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
-    </packageHasProfileInstances>
-    <packageHasProfileInstances Id="3332d17a-be3b-4e73-9d22-25cb76453ca0">
-      <profileInstance Id="5953f9af-415a-4a29-b542-315bb97fe0bb" name="StandardProfileL3">
-        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
-      </profileInstance>
-      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
-    </packageHasProfileInstances>
-  </profileInstances>
+<useCaseModelRoot xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm10="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="1c137a9a-b66d-4741-8f87-cdd10408c3c4" name="Администрация" linkedPackageId="07004173-285c-499d-ad59-3624eb933e31" xmlns="http://schemas.microsoft.com/dsltools/UseCaseModel">
   <packagedElements>
     <useCaseModelRootHasTypes>
       <actor Id="58265eab-cf43-41ad-bffe-ef5742b51ae1" name="Директор" isAbstract="false" isLeaf="false">
@@ -51,11 +37,27 @@
             </relationshipOwnedElementsInternal>
             <elementDefinition Id="5b620729-2c3c-4bbf-8beb-7b2d8cf480fc" />
           </association>
+          <association Id="f8e99d40-76c3-485a-a886-747923a3a515" isDerived="false" sourceEndRoleName="Директор" targetEndRoleName="Прийняття рішень щодо виконавчої дисципліни" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="16103e53-249e-4b1e-b5d9-6bbb1c1cd234" LastKnownName="Прийняття рішень щодо виконавчої дисципліни" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="ae3f033e-b1d0-4015-8c57-b80cfc1e20e2" name="Директор" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="3d458f24-f979-41d1-83be-87590deaeb2f" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="1d18f59b-a6b2-4235-97c2-00b6316d03d4" name="Прийняття рішень щодо виконавчої дисципліни" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="bc53664e-d336-458f-9622-4eff2d05e6a0" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="44bf081d-7815-440e-88d4-342dfded6603" />
+          </association>
         </targetEnds>
       </actor>
     </useCaseModelRootHasTypes>
     <useCaseModelRootHasTypes>
-      <actor Id="bc78ed9d-74bb-49ed-b964-a25524f18845" name="Офис-менеджер" isAbstract="false" isLeaf="false">
+      <actor Id="bc78ed9d-74bb-49ed-b964-a25524f18845" name="Секретар" isAbstract="false" isLeaf="false">
         <elementDefinition Id="34fba482-b6df-4b3c-8686-c7558ed49efa" />
         <targetEnds>
           <association Id="ac58a8fa-bdc0-4bc0-935e-66adbdd3e30f" isDerived="false" sourceEndRoleName="Офис-менеджер" targetEndRoleName="Ведення журналу вхідної кореспонденції" isLeaf="false" isAbstract="false">
@@ -180,8 +182,50 @@
         <elementDefinition Id="c13cbd66-69af-4aff-90fc-7fed1d39b31b" />
       </useCase>
     </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="16103e53-249e-4b1e-b5d9-6bbb1c1cd234" name="Прийняття рішень щодо виконавчої дисципліни" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="49b662bc-0a02-4c5a-b54c-8ab9c1f9a5c1" />
+        <targetEnds>
+          <association Id="6f9f75ac-bac8-4184-b723-d8976778ed05" isDerived="false" sourceEndRoleName="Прийняття рішень щодо виконавчої дисципліни" targetEndRoleName="Перегляд звітів по журналах" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="9516a609-f418-4828-9c87-f1b37f81caa9" LastKnownName="Перегляд звітів по журналах" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="f8caf091-0519-490e-8f1e-8f26a5579b38" name="Прийняття рішень щодо виконавчої дисципліни" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="fa9630ae-1996-4956-9a1b-c4b91db5c5be" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="a76937e4-f2fb-49f1-b1b5-2610e6e3a1e4" name="Перегляд звітів по журналах" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="632b2f74-ee0d-461a-9062-d8d2e83378b5" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="3362c2f5-4e84-49df-b933-8ebc720b6847" />
+          </association>
+        </targetEnds>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="9516a609-f418-4828-9c87-f1b37f81caa9" name="Перегляд звітів по журналах" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="2ec749d9-4c75-493c-83ee-dc7b996cbd9a" />
+      </useCase>
+    </useCaseModelRootHasTypes>
   </packagedElements>
   <package Id="07004173-285c-499d-ad59-3624eb933e31" name="Bakery.UML">
     <elementDefinition Id="efdd1042-ac13-401a-a8f1-02bb11d37e9d" />
+    <profileInstances>
+      <packageHasProfileInstances Id="8191fd70-29eb-4f44-b3f0-076023a99910">
+        <profileInstance Id="bf3a09d9-04a6-4d91-8912-63280e99ed50" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="3332d17a-be3b-4e73-9d22-25cb76453ca0">
+        <profileInstance Id="5953f9af-415a-4a29-b542-315bb97fe0bb" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+    </profileInstances>
   </package>
 </useCaseModelRoot>

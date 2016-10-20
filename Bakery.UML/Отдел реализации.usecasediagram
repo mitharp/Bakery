@@ -1,19 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <useCaseModelRoot xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm10="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="486742f6-0846-43d9-b56a-7d231cc0e4ba" name="Отдел реализации" linkedPackageId="3a10c6b4-3ade-40f9-8b81-caff0e2c6276" xmlns="http://schemas.microsoft.com/dsltools/UseCaseModel">
-  <profileInstances>
-    <packageHasProfileInstances Id="a436d1da-d002-4a69-b03f-10775c4af2ad">
-      <profileInstance Id="f84e237d-6c0c-4979-97e7-0807a4541ff4" name="StandardProfileL2">
-        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
-      </profileInstance>
-      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
-    </packageHasProfileInstances>
-    <packageHasProfileInstances Id="092bff63-524b-49ad-92f2-4a4992129cc2">
-      <profileInstance Id="3639554e-54e2-4f90-83be-a6e2f6773f8d" name="StandardProfileL3">
-        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
-      </profileInstance>
-      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
-    </packageHasProfileInstances>
-  </profileInstances>
   <packagedElements>
     <useCaseModelRootHasTypes>
       <actor Id="84968570-65ab-4722-92ce-a327574bccd3" name="Рекламний менеджер" isAbstract="false" isLeaf="false">
@@ -59,7 +45,7 @@
             <elementDefinition Id="067e9aa3-f9bc-400e-a0aa-cb9ed2bbaca7" />
           </association>
           <association Id="83483c82-012c-4c06-a3a7-033e861633e9" isDerived="false" sourceEndRoleName="Менеджер зі збуту готової продукції" targetEndRoleName="Скалдання накладних на виготовлену продукцію" isLeaf="false" isAbstract="false">
-            <useCaseMoniker Id="5460cb57-ad9c-4651-aca8-d92f54f41bc5" LastKnownName="Складання накладних на виготовлену продукцію" />
+            <useCaseMoniker Id="5460cb57-ad9c-4651-aca8-d92f54f41bc5" LastKnownName="Складання та реєстрація видаткових накладних на реалізовану продукцію" />
             <relationshipOwnedElementsInternal>
               <associationHasOwnedEnds>
                 <memberEnd Id="24eb3dd3-68fb-45fe-93b6-0bac25e13dd7" name="Менеджер зі збуту готової продукції" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
@@ -75,7 +61,7 @@
             <elementDefinition Id="42784b16-d9e8-4915-88b5-929cbd3ed9b5" />
           </association>
           <association Id="d95cc436-7c6f-4b2e-8b5b-9bd6b5911372" isDerived="false" sourceEndRoleName="Менеджер зі збуту готової продукції" targetEndRoleName="Складання рахунків-фактур" isLeaf="false" isAbstract="false">
-            <useCaseMoniker Id="d29a130d-3315-4c02-9c36-1b7a0e9287a7" LastKnownName="Складання рахунків-фактур" />
+            <useCaseMoniker Id="d29a130d-3315-4c02-9c36-1b7a0e9287a7" LastKnownName="Складання та реєстрація рахунків-фактур" />
             <relationshipOwnedElementsInternal>
               <associationHasOwnedEnds>
                 <memberEnd Id="7876d972-8de1-41db-a5a4-a61e4880929d" name="Менеджер зі збуту готової продукції" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
@@ -130,7 +116,7 @@
             <elementDefinition Id="d949a32d-d7a0-4dfe-bdc9-9d1489f4a301" />
           </association>
           <association Id="3db60521-e2e5-43f7-bccb-17f63e8ec196" isDerived="false" sourceEndRoleName="Керівник" targetEndRoleName="Перегляд параметризованих звітів за накладними (Період)" isLeaf="false" isAbstract="false">
-            <useCaseMoniker Id="5a7477c2-f8f9-4308-9896-999dcf6f718a" LastKnownName="Перегляд параметризованих звітів за накладними (Період)" />
+            <useCaseMoniker Id="5a7477c2-f8f9-4308-9896-999dcf6f718a" LastKnownName="Перегляд параметризованих звітів за видатковими накладними (Період, Споживач, Вид продукції)" />
             <relationshipOwnedElementsInternal>
               <associationHasOwnedEnds>
                 <memberEnd Id="22b0a11d-0585-4a7d-aeff-014bc1b4f31b" name="Керівник" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
@@ -144,6 +130,22 @@
               </associationHasOwnedEnds>
             </relationshipOwnedElementsInternal>
             <elementDefinition Id="796fdf03-b153-49c9-b712-abeac35ac95d" />
+          </association>
+          <association Id="94a544bf-215e-43dc-9814-092b7806c592" isDerived="false" sourceEndRoleName="Керівник" targetEndRoleName="Перегляд параметризованих звітів за  рахунками-фактурами (Період)" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="27626e4c-fe57-4cec-a151-77a29e4dbeba" LastKnownName="Перегляд параметризованих звітів за  рахунками-фактурами (Період, Споживач, Вид продукції)" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="785e41a5-1d15-4d77-8454-c29686d77d1d" name="Керівник" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="47eba631-5b68-46b8-8703-c7d0a067ffee" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="b23f3aec-d03f-4476-b417-5a06894297fe" name="Перегляд параметризованих звітів за  рахунками-фактурами (Період)" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="fc0fdeb0-0c3c-4ca7-825f-4ecb0d76ea17" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="fa4f49c7-f175-4d0e-bd8d-b146ac09e69f" />
           </association>
         </targetEnds>
       </actor>
@@ -159,7 +161,7 @@
       </useCase>
     </useCaseModelRootHasTypes>
     <useCaseModelRootHasTypes>
-      <useCase Id="5460cb57-ad9c-4651-aca8-d92f54f41bc5" name="Складання накладних на виготовлену продукцію" isAbstract="false" isLeaf="false">
+      <useCase Id="5460cb57-ad9c-4651-aca8-d92f54f41bc5" name="Складання та реєстрація видаткових накладних на реалізовану продукцію" isAbstract="false" isLeaf="false">
         <elementDefinition Id="32c465fa-c68e-4fbe-861f-e4617495939c" />
       </useCase>
     </useCaseModelRootHasTypes>
@@ -169,17 +171,36 @@
       </useCase>
     </useCaseModelRootHasTypes>
     <useCaseModelRootHasTypes>
-      <useCase Id="d29a130d-3315-4c02-9c36-1b7a0e9287a7" name="Складання рахунків-фактур" isAbstract="false" isLeaf="false">
+      <useCase Id="d29a130d-3315-4c02-9c36-1b7a0e9287a7" name="Складання та реєстрація рахунків-фактур" isAbstract="false" isLeaf="false">
         <elementDefinition Id="8d56ef6b-fca9-4768-9a49-c15cf4036acf" />
       </useCase>
     </useCaseModelRootHasTypes>
     <useCaseModelRootHasTypes>
-      <useCase Id="5a7477c2-f8f9-4308-9896-999dcf6f718a" name="Перегляд параметризованих звітів за накладними (Період)" isAbstract="false" isLeaf="false">
+      <useCase Id="5a7477c2-f8f9-4308-9896-999dcf6f718a" name="Перегляд параметризованих звітів за видатковими накладними (Період, Споживач, Вид продукції)" isAbstract="false" isLeaf="false">
         <elementDefinition Id="080b5666-caa2-4b9d-beac-b0f33beac4e2" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="27626e4c-fe57-4cec-a151-77a29e4dbeba" name="Перегляд параметризованих звітів за  рахунками-фактурами (Період, Споживач, Вид продукції)" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="5f36d280-95ae-4b65-abf0-a14d4de18b81" />
       </useCase>
     </useCaseModelRootHasTypes>
   </packagedElements>
   <package Id="3a10c6b4-3ade-40f9-8b81-caff0e2c6276" name="Bakery.UML">
     <elementDefinition Id="efdd1042-ac13-401a-a8f1-02bb11d37e9d" />
+    <profileInstances>
+      <packageHasProfileInstances Id="a436d1da-d002-4a69-b03f-10775c4af2ad">
+        <profileInstance Id="f84e237d-6c0c-4979-97e7-0807a4541ff4" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="092bff63-524b-49ad-92f2-4a4992129cc2">
+        <profileInstance Id="3639554e-54e2-4f90-83be-a6e2f6773f8d" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+    </profileInstances>
   </package>
 </useCaseModelRoot>

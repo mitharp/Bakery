@@ -1,19 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <useCaseModelRoot xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm10="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="f16ddf01-348b-4120-aa6c-c45b752f7f06" name="Отдел поставок" linkedPackageId="c51e2f92-ca8a-4912-97bb-fc362d63ef42" xmlns="http://schemas.microsoft.com/dsltools/UseCaseModel">
-  <profileInstances>
-    <packageHasProfileInstances Id="4a930b73-b944-4e46-831a-470487fc1a4b">
-      <profileInstance Id="ec698e92-965d-462f-ba3e-a7f92ff12004" name="StandardProfileL2">
-        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
-      </profileInstance>
-      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
-    </packageHasProfileInstances>
-    <packageHasProfileInstances Id="0ce8ffc1-0e34-457c-9c09-af4c651789e3">
-      <profileInstance Id="23820bdf-2ed4-4735-9693-bc8b594d6a4d" name="StandardProfileL3">
-        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
-      </profileInstance>
-      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
-    </packageHasProfileInstances>
-  </profileInstances>
   <packagedElements>
     <useCaseModelRootHasTypes>
       <actor Id="a8b71053-0dd8-4f59-b9cb-bed3a7d23a77" name="Менеджер з постачання сировини" isAbstract="false" isLeaf="false">
@@ -50,6 +36,22 @@
               </associationHasOwnedEnds>
             </relationshipOwnedElementsInternal>
             <elementDefinition Id="6034695d-2e5a-4663-a87f-372ff056b3ea" />
+          </association>
+          <association Id="83607419-8daf-4651-924c-62150f5a9b95" isDerived="false" sourceEndRoleName="Менеджер з постачання сировини" targetEndRoleName="Введення даних з постачання сировини" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="5d570495-e019-49a6-80ea-01f221263f3e" LastKnownName="Введення даних з постачання сировини" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="0eed8478-7f88-428f-b977-ef1d0ab97720" name="Менеджер з постачання сировини" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="c4bc95cc-121a-4ce2-9bae-0c4833839585" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="fcbb4b60-2f7e-4782-9f58-3ffd0d5fb241" name="Введення даних з постачання сировини" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="e9b71c0a-16a1-4820-9a63-a8dec69682eb" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="f524ef21-9092-4c18-8d20-1b0d25d75618" />
           </association>
         </targetEnds>
       </actor>
@@ -89,6 +91,22 @@
               </associationHasOwnedEnds>
             </relationshipOwnedElementsInternal>
             <elementDefinition Id="263fbe1c-906e-480b-b223-ae496fa54d33" />
+          </association>
+          <association Id="3ab90413-5f05-403d-aea7-0e7d52b6b45f" isDerived="false" sourceEndRoleName="Менеджер з постачання устаткування" targetEndRoleName="Введення даних з постачання устаткування" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="f720d925-c3ee-4695-97f1-53520a32fd05" LastKnownName="Введення даних з постачання устаткування" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="36eddae9-2e1a-4075-9c58-c39f87b19105" name="Менеджер з постачання устаткування" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="735fe51e-b400-4590-aa5a-94d276b7043a" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="53f24211-b055-4a0c-96fe-2294f7b2bc55" name="Введення даних з постачання устаткування" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="bd03f379-cb8e-4b33-82c9-85ddc447e4e3" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="921d95ab-f719-4350-a948-5c133492a6eb" />
           </association>
         </targetEnds>
       </actor>
@@ -157,8 +175,32 @@
         <elementDefinition Id="af410356-19ee-4d5f-93f6-773698681698" />
       </useCase>
     </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="5d570495-e019-49a6-80ea-01f221263f3e" name="Введення даних з постачання сировини" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="2459f72e-bc47-428e-bd1f-3d079367902c" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="f720d925-c3ee-4695-97f1-53520a32fd05" name="Введення даних з постачання устаткування" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="18bb4d2d-a419-4ce9-bcbf-d0aa33270435" />
+      </useCase>
+    </useCaseModelRootHasTypes>
   </packagedElements>
   <package Id="c51e2f92-ca8a-4912-97bb-fc362d63ef42" name="Bakery.UML">
     <elementDefinition Id="efdd1042-ac13-401a-a8f1-02bb11d37e9d" />
+    <profileInstances>
+      <packageHasProfileInstances Id="4a930b73-b944-4e46-831a-470487fc1a4b">
+        <profileInstance Id="ec698e92-965d-462f-ba3e-a7f92ff12004" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="0ce8ffc1-0e34-457c-9c09-af4c651789e3">
+        <profileInstance Id="23820bdf-2ed4-4735-9693-bc8b594d6a4d" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+    </profileInstances>
   </package>
 </useCaseModelRoot>
