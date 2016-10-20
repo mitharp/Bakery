@@ -1,12 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm10="http://schemas.microsoft.com/dsltools/UseCaseModel" dslVersion="1.0.0.0" Id="1e897dab-8745-42aa-abed-00f79d043a19" name="UMLClassDiagram1" linkedPackageId="e5026dd3-cf6d-426d-9d3e-be953e9560f6" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
-  <packagedElements>
-    <logicalClassDesignerModelHasTypes>
-      <class Id="07983a1d-0d58-46d2-866a-f2c83caf171f" name="Class2" isAbstract="false" isLeaf="false" isActiveClass="false">
-        <elementDefinition Id="2af0241f-36ec-48de-9013-0916cbd7f353" />
-      </class>
-    </logicalClassDesignerModelHasTypes>
-  </packagedElements>
   <package Id="e5026dd3-cf6d-426d-9d3e-be953e9560f6" name="Bakery.UML">
     <elementDefinition Id="efdd1042-ac13-401a-a8f1-02bb11d37e9d" />
     <profileInstances>
