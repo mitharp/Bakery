@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm10="http://schemas.microsoft.com/dsltools/UseCaseModel" dslVersion="1.0.0.0" Id="1e897dab-8745-42aa-abed-00f79d043a19" name="UMLClassDiagram1" linkedPackageId="e5026dd3-cf6d-426d-9d3e-be953e9560f6" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm10="http://schemas.microsoft.com/dsltools/UseCaseModel" dslVersion="1.0.0.0" Id="1e897dab-8745-42aa-abed-00f79d043a19" name="Концептуальная модель" linkedPackageId="e5026dd3-cf6d-426d-9d3e-be953e9560f6" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
   <packagedElements>
     <logicalClassDesignerModelHasTypes>
       <class Id="d9c50cfc-b9d1-4242-bcef-789073ead48e" name="Журнал реєстрації вхідної кореспонденції" isAbstract="false" isLeaf="false" isActiveClass="false">
@@ -11,8 +11,829 @@
           <property Id="4d9d4282-9fac-400a-8ee8-5a33d1ffd99e" name="Дата" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
             <elementDefinition Id="7176670b-5614-4fcc-99d5-1b08de9ebeb0" />
           </property>
-          <property Id="01c82327-d41e-4c6b-86d3-3eb92cd9543b" name="Attribute1" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+          <property Id="01c82327-d41e-4c6b-86d3-3eb92cd9543b" name="Заголовок" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
             <elementDefinition Id="9231cdb6-5ab3-49bc-b22e-38f2c4cd3140" />
+          </property>
+          <property Id="b2e3c417-d1de-4ad4-a42c-cf7cfef69e86" name="Адресант" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="8fc4d3ca-a363-4d73-b00d-d3cfcf714a5d" />
+          </property>
+          <property Id="a3a395e8-6ef2-45ad-8a3b-52f294d480ae" name="Примітка" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="3af8863c-259f-478a-b55d-91364ab1df00" />
+          </property>
+          <property Id="aab4622c-8492-4ab1-93bc-b72024ab63c5" name="Id" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="0e75a117-5fb4-4cd9-9bb8-4d5a0b4a9164" />
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="2528a4ad-093c-43df-a937-e6f1363812a3" name="Журнал реєстрації вихідної кореспонденції" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="bd889b1e-2cdb-4427-89b3-144d2df054f8" />
+        <ownedAttributesInternal>
+          <property Id="8401f35f-3635-475d-b63c-b9fb7905b0e0" name="№" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="a8e53919-d4a3-442e-8101-62b2e0768343" />
+          </property>
+          <property Id="0eed6ccb-00f8-434c-aa91-afa8ab582711" name="Дата" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="c224258f-f7be-4580-81d8-dd9ea5bf3adc" />
+          </property>
+          <property Id="fb923e04-ff8e-457d-a038-04c843f7c791" name="Заголовок" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="83254dd6-e82d-4822-8ad7-a44e82059189" />
+          </property>
+          <property Id="2bdd176c-debe-4369-a422-659c41838ee7" name="Адресат" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="a49edd93-3ac3-4bd8-a4f4-7669fc1e0960" />
+          </property>
+          <property Id="c4072774-b170-4838-9c43-d9a8ed511e3e" name="Примітка" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="80319cab-5bb6-4675-8747-5ba804d4e1bf" />
+          </property>
+          <property Id="9d3b912c-e251-40cd-af1d-c1e1d2a05e6e" name="Id" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="c331f36d-f2c1-4623-8ea2-5b11279624b5" />
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="90e11853-307a-420c-a1e8-64a22d3412bc" name="Журнал реєстрації внутрішньої документації" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="d46ec090-bbae-46b0-a9bf-5f47d61b290e" />
+        <ownedAttributesInternal>
+          <property Id="07c52985-fca4-48f4-9c80-1e1a7c811232" name="№" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="42e086a8-e48d-4d5d-bb25-35e780fa91c4" />
+          </property>
+          <property Id="c0d535fd-2393-4366-b569-fde7a720988e" name="Дата" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="fc121c0f-4a66-4215-b91a-3d30457d7d55" />
+          </property>
+          <property Id="ba1257d8-3918-4eec-99d4-cc5e96f69115" name="Заголовок" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="224ee6f8-b6ec-406c-b317-b1a31ac1b04e" />
+          </property>
+          <property Id="386f3bbc-95c4-4d84-8bdc-70dc328acc30" name="Примітка" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="9bdb5577-09db-41cb-a302-27085eaea338" />
+          </property>
+          <property Id="401b8cbb-aed6-4e31-925d-deff9fbead0a" name="Id" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="80adb80c-0571-4ff1-9f6e-4f913a1adef1" />
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="9e7e4f8a-ab94-45bd-8651-be16f94fa17e" name="Резюме" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="69a2d317-01b1-4b20-9e98-717827e928a5" />
+        <ownedAttributesInternal>
+          <property Id="4424ab97-c14e-4ccb-8ba3-d0665e24d05d" name="ПІБ" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="c02cfc23-571e-4710-8ba5-1eedddf84687" />
+          </property>
+          <property Id="53edd327-b978-46d5-9f1a-3ca1a22f5471" name="Стаж" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="c9a04161-0b95-402e-a973-f4ad8d3a8d8a" />
+          </property>
+          <property Id="dbb7d4a5-5550-4745-9832-535a75679e01" name="Освіта" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="4ce93294-fa4f-472c-be84-36e93047f09d" />
+          </property>
+          <property Id="57be4f34-fbe5-4ea7-b7bf-54caf95deb9d" name="Судимість" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="ccad25a3-20c5-4bf6-aafa-dccd8a372c6c" />
+          </property>
+          <property Id="9157b4b2-4634-4856-b35b-09b493f5a504" name="Номер телефону" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="a25559a4-a48d-4398-ae7e-8eac614c2f2b" />
+          </property>
+          <property Id="b97f7d79-7287-4394-b137-3acecaf66f03" name="Email" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="55b48ed1-6a00-4531-bb8f-b0a6b751d56d" />
+          </property>
+          <property Id="534f6252-65eb-4925-95fd-554edc9984fe" name="Посада" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="bdd7017b-661d-40bd-8dcf-5d816a118208" />
+          </property>
+          <property Id="dfe27f04-1064-424a-a848-15c86a552fba" name="Заробітня плата" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="500cb1bf-5549-47d0-9d4a-1dc5f37369ef" />
+          </property>
+          <property Id="9731a517-fe86-4e1b-a486-9b6b98147842" name="Id" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="87c77467-ca35-4b6f-9c28-a6fd56d1e2ee" />
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="828cce9e-98c6-423f-b981-b6803f643fac" name="Наказ про прийняття/звільнення" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="ee60e7d5-9c45-4669-be6d-339c9e1202ff" />
+        <targetEnds>
+          <association Id="b338cb7b-1cbf-4533-95e5-007d3350c8cc" isDerived="false" sourceEndRoleName="" targetEndRoleName="" isLeaf="false" isAbstract="false">
+            <classMoniker Id="fe1cac3c-8d49-41e4-9bed-822a2d252507" LastKnownName="Співробітник" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="26f56e5f-4bcb-497c-9454-266dedceec44" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="083f9217-ac93-47be-a1f2-64c0c4db0d28" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="a97730bb-f552-4854-ae36-3ac755ce5169" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="230457f0-10b1-4e76-9d61-2591c507a66d" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="902c34a3-bb68-40bd-8c06-b8e4ec1bcdef" />
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property Id="3600c404-7abb-4013-9240-a32629b5a3dc" name="Дата" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="63eba7ea-2a5c-42cd-83ee-c789fc9a52f7" />
+          </property>
+          <property Id="9c21d1e3-5df6-4eda-8111-7beac3e541d0" name="Вид руху" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="a29c0217-e833-4850-8e81-f98fa02ea0b6" />
+          </property>
+          <property Id="fdf76784-04d0-41fd-92e5-a5863bdb7065" name="№" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="6053ab0f-6aaf-4174-9e59-e7c925b78aa9" />
+          </property>
+          <property Id="478bf1ee-f953-436d-9fc9-af6feebc4c1d" name="Співробітник" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="1a515f89-5887-45db-a242-1f7f2eabd10c" />
+          </property>
+          <property Id="a11e89ab-18c5-43d2-b84e-5394eab2b476" name="Підстава" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="757f5dd9-eea4-4a9d-9077-089b8968c835" />
+          </property>
+          <property Id="1676fc44-b286-4f28-b2d6-dc9d894c55d7" name="Id" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="02ccc266-58bf-4783-8394-540538ad8559" />
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="93b1438e-ad20-4012-89e3-31a56e1a0e08" name="Наказ про відпустку" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="6c9d3a4b-5abe-4eb7-8b87-37ba897ddce8" />
+        <targetEnds>
+          <association Id="dd4cad1e-2c85-4f54-ba4a-ec38aac8b8e3" isDerived="false" sourceEndRoleName="" targetEndRoleName="" isLeaf="false" isAbstract="false">
+            <classMoniker Id="fe1cac3c-8d49-41e4-9bed-822a2d252507" LastKnownName="Співробітник" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="29768d47-998a-479e-b983-23767c3d169a" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="7ebe2d2e-029c-4cb4-9e8f-858287474c79" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="fc1fae4f-c15f-4140-bf56-cd69ed834e11" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="69209cd8-78b6-4b30-9458-02da0cc39e71" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="31dc22cd-6e05-4e11-8b54-9b8caa916f9b" />
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property Id="c593c27e-8401-4fd0-a86f-d788cd32c728" name="№" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="66ee364b-089d-4a97-a80b-7a0294ef7485" />
+          </property>
+          <property Id="31bdd71e-8387-49e5-a5be-050544a1eda8" name="Співробітник" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="d2ffc6e8-7739-44c7-aa01-17a91fe906cb" />
+          </property>
+          <property Id="a62f3c35-4bbb-48e9-a2d1-df72305319d4" name="Оплачувана" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="d99e6bc6-f5f9-43ff-9d5d-3bad96dc941b" />
+          </property>
+          <property Id="8f959d03-3dc4-4fa7-bec3-d581101ccb8f" name="Дата виходу" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="bad7f023-7174-46d8-97b9-b92fb3314aa7" />
+          </property>
+          <property Id="77119767-7ccc-4c0c-89b7-40067da71297" name="Дата повернення" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="c450776f-7d91-4428-9bbf-8e7d962a5f65" />
+          </property>
+          <property Id="50c47d2d-3f90-40aa-9705-adfd1d4523dd" name="Id" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="e93b7f17-ee59-4e8a-8536-53541729355c" />
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="3a1f48f5-b2d3-4360-9a9a-04d9b8af84aa" name="Журнал реєстрації задач" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="821c6f89-c399-408e-a070-353983e25969" />
+        <targetEnds>
+          <association Id="93aea72e-d5dc-4287-bdd3-8a80b56c40cd" isDerived="false" sourceEndRoleName="" targetEndRoleName="" isLeaf="false" isAbstract="false">
+            <classMoniker Id="0a9dc4d0-f854-46fc-bcc1-27a5f6b4e916" LastKnownName="Відділ" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="793a7ea3-54c8-472d-9f18-7c4cac37a0fc" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="6d0937dd-91c9-451d-9a24-6c99b4ba066f" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="5d247269-313b-4ed3-8829-888f98fa5083" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="401332ff-b623-41b1-b311-9e41e5cd5a91" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="a5413334-1665-4e38-9225-431e01743b43" />
+          </association>
+          <association Id="191497ae-789d-403f-ab4f-8bc569eff4b9" isDerived="false" sourceEndRoleName="" targetEndRoleName="" isLeaf="false" isAbstract="false">
+            <classMoniker Id="fe1cac3c-8d49-41e4-9bed-822a2d252507" LastKnownName="Співробітник" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="9829f979-3543-4487-8bc7-b3572d0e1ca2" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="4400b5ef-712c-4138-9e35-855511cdbec9" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="cb76bcc1-6aa6-46dd-9aaa-153a96b79625" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="273c2f7c-b626-4b47-822a-17851dec35b2" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="46591a83-7be1-43d9-b080-02b155b7d7e6" />
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property Id="82c7b292-6922-4c83-9f54-69c969dc3aa0" name="Відділ" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="031532fe-95fe-4664-949b-ce1a1d6551bd" />
+          </property>
+          <property Id="aef596bf-e829-4dca-80e3-ce33213fee86" name="Id" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="6949e5af-e67e-4d32-9ad3-f6044396a487" />
+          </property>
+          <property Id="34b0bdf4-1221-49ce-a3b2-830dfc8fbb57" name="Виконавець" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="086025ff-76a9-4efe-a7ea-4bf9ada16323" />
+          </property>
+          <property Id="5641bfac-d539-4b58-af9a-00aa7cac47b4" name="Опис" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="173184a6-2817-4b56-a154-95b6121fde0b" />
+          </property>
+          <property Id="0a8b4c17-da3c-4f5d-86ca-5d85b9c08f70" name="Заголовок" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="a23a1548-c042-43f8-9fae-a77bcc7b7999" />
+          </property>
+          <property Id="16cb2272-5dd4-4d74-a96a-954278bf749e" name="Виконано" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="dc5258ba-f780-43f4-94b9-399264759487" />
+          </property>
+          <property Id="185d5c5c-f201-4294-9fd1-6176f780fd72" name="Дата реєстрації" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="cbe59c11-995d-468e-a9c7-af0e447e69e6" />
+          </property>
+          <property Id="d7f92196-6dc5-4c60-92a3-4f5c37082b97" name="Якість виконання" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="ffe522af-76b5-4e00-b160-97e6348252eb" />
+          </property>
+          <property Id="881b174d-3626-44b5-832f-71c813b71b74" name="№" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="f2d26d91-4b3e-4963-9875-5f3c90f3b7ed" />
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="0a9dc4d0-f854-46fc-bcc1-27a5f6b4e916" name="Відділ" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="744fd75c-37fc-43f5-a183-18469110d422" />
+        <targetEnds>
+          <association Id="3f3b0133-2649-4a33-b836-0e28dbef7d19" isDerived="false" sourceEndRoleName="" targetEndRoleName="" isLeaf="false" isAbstract="false">
+            <classMoniker Id="fe1cac3c-8d49-41e4-9bed-822a2d252507" LastKnownName="Співробітник" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="cf0f5d3b-ce64-4677-b696-c979a4ec06b6" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="6759b077-fcae-4128-b35b-354cd1c5204c" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="5e5b0b2e-e667-4470-abd4-41f7ec73c646" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="23862502-bbd6-4064-a0f0-47c145ff2852" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="8f1bb029-2b64-43b3-8434-f2af48db2fb8" />
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property Id="b407e90b-aecc-48e8-9b83-9f6ee9c0e888" name="Назва" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="85523d93-d860-4226-a65f-d1c6d12b0d57" />
+          </property>
+          <property Id="ce6cd244-487a-426f-839d-1584ac45df9e" name="Керівник" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="f11ac1da-8e89-4eda-8266-b779aa75b350" />
+          </property>
+          <property Id="e9990a09-c086-448f-b4e1-d47b03ef5bdc" name="Id" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="872d230f-c560-4aa1-973b-2133e4e578be" />
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="fe1cac3c-8d49-41e4-9bed-822a2d252507" name="Співробітник" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="dacce209-efeb-4303-8f9d-c31f0d0cbe64" />
+        <ownedAttributesInternal>
+          <property Id="ab22809d-b2a2-424a-8cce-84c1309cdd56" name="Id" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="196184d8-c9af-4b90-b21f-27061aba09fa" />
+          </property>
+          <property Id="4ec04841-ae8c-414e-b4ae-4cd17ae26781" name="Прізвище" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="c04d54dd-82a4-4f17-947f-5d261ddc2ac5" />
+          </property>
+          <property Id="9e4e52c6-3976-4bec-adde-a1f582bd9648" name="Ім'я" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="d288d2d9-69e6-4845-b0ec-db4b48f4cf70" />
+          </property>
+          <property Id="b180ff35-afc6-4c82-bd62-863f05c54e69" name="По батькові" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="041b4040-b383-4c3b-be72-5fd91eeadb8c" />
+          </property>
+          <property Id="502eb6ce-39b1-43a8-b111-eec59db6fda1" name="Посада" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="baeb1852-b55b-436d-9868-96440a14e0b4" />
+          </property>
+          <property Id="6b8debf5-5886-499c-9fd3-eac360e56dbb" name="Адреса" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="c9613935-00d5-4bfb-988e-8147875d2b4b" />
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="25b1373d-1f63-497f-bb27-5fcdb5c2e479" name="Вхідні платіжні документи та договори" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="6a6fa2a0-3929-4c55-a535-450e38b56399" />
+        <targetEnds>
+          <association Id="9329eee2-3323-4221-9c3a-13f060d319d7" isDerived="false" sourceEndRoleName="" targetEndRoleName="" isLeaf="false" isAbstract="false">
+            <classMoniker Id="f485aae7-9449-457f-8738-fe5a59b5a229" LastKnownName="Договори на постачання устаткування" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="aeff6b95-3ae9-449c-80a2-0831fb31b2b3" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="51822c81-060c-4338-a547-e5bf47f08394" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="87d78cb9-302d-47df-9959-70994f301060" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="1694e29d-1855-456e-be14-19f9c8577b87" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="68e55a18-5782-47a9-8617-72bfb522e3ca" />
+          </association>
+          <association Id="7d624a7b-5e58-447a-a32b-89a85936e810" isDerived="false" sourceEndRoleName="" targetEndRoleName="" isLeaf="false" isAbstract="false">
+            <classMoniker Id="893afd97-f1de-41a3-ba5b-2e75385b6dbc" LastKnownName="Договори на постачання сировини" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="ca8344c6-69c7-4102-9f3a-0c0d9e545fb0" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="7cbef89b-d996-4956-a196-dbef967e3309" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="897203b3-c12e-4d4b-a776-2deaa788d96d" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="bb82e8ca-d608-4701-847f-bb4b1203c048" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="3870bdff-c91b-4003-992f-2c969e2f8245" />
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property Id="73e15a52-90e1-4b30-b33f-2cb4bc5fd1ac" name="Партнер" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="be655c71-fd33-4eab-9b63-6f7b00e5c7bc" />
+          </property>
+          <property Id="40613213-0c8d-47a5-a4ed-d998142e2ccd" name="№" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="6829ddd7-113b-4471-90f9-afaede285f3e" />
+          </property>
+          <property Id="81adb816-d1ac-4924-9534-b54ccaf56f3f" name="Дата" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="7394bce2-cc37-43b0-b88a-c4bb20cd2150" />
+          </property>
+          <property Id="6f443d8e-2919-42da-bf26-2d8e2b099ece" name="Сума" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="46460248-b4a3-4585-8272-a447099de1e1" />
+          </property>
+          <property Id="0d5eec9a-ed60-4e39-b907-93a9e066f3be" name="Договір" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="cd72a369-9c11-447e-a2ce-1a21a0d7fb66" />
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="893afd97-f1de-41a3-ba5b-2e75385b6dbc" name="Договори на постачання сировини" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="7db1146a-d785-498e-9414-c73ceb548a65" />
+        <targetEnds>
+          <association Id="679ddc0a-4324-4507-92e5-ba8b15aa7f2c" isDerived="false" sourceEndRoleName="" targetEndRoleName="" isLeaf="false" isAbstract="false">
+            <classMoniker Id="73c1332c-864a-4b0a-a752-79907608b2ec" LastKnownName="Сировина" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="28d6e9ac-0df6-43a5-9d43-9b1643284c2f" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="c5a3e5d8-784a-465a-85a9-4f3ebe1e381a" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="29915de4-bbcb-436e-80c5-feef7f0ceb0a" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="8b210581-5eca-49a0-90e7-c53ea5fa2b30" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="b5a61ffe-5717-468a-97a5-dfbfc3950526" />
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property Id="a052e986-a5b9-4fe3-b3aa-991cfff72dbd" name="Дата" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="a5a3f78a-3c4d-40ff-bdee-873ac6404812" />
+          </property>
+          <property Id="131d6476-80db-4008-ac2b-ee7252c61e35" name="Сума" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="4dac23d2-d370-452e-8fc6-7d4f772328d6" />
+          </property>
+          <property Id="0d32f97f-9e60-4078-88a0-4e0c26314fb3" name="Постачальник" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="76d50e3f-2a4d-470f-a108-02f8dfa0ec5b" />
+          </property>
+          <property Id="bd075149-2658-4c20-9a67-6b3b6bd8dd3f" name="Id" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="076a8f98-a9c9-4702-8e7c-e04a88e7cf4e" />
+          </property>
+          <property Id="6321e2cd-1341-47ab-b18c-0477ac39ae27" name="№" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="13e6a94e-0876-4aca-994e-b78d7b17cd00" />
+          </property>
+          <property Id="2858c55b-e7d3-4f08-ba37-2585ccf9d1af" name="Код сировини" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="7ce99c44-b068-4133-af52-86a6a94d7f10" />
+          </property>
+          <property Id="ac90cb96-8001-4ae4-bccd-23e4e30909eb" name="Накладна" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="8289f81d-8e1e-4d15-8944-29c53d62d2c4" />
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="f485aae7-9449-457f-8738-fe5a59b5a229" name="Договори на постачання устаткування" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="5289d58b-4cb2-4f3d-8086-47a57bd1b01f" />
+        <targetEnds>
+          <association Id="937c5801-a315-432a-a570-bf58f4cd1d82" isDerived="false" sourceEndRoleName="" targetEndRoleName="" isLeaf="false" isAbstract="false">
+            <classMoniker Id="924786bb-1154-43c8-b571-b3a7dfb8d8bd" LastKnownName="Устаткування" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="94357fa3-b695-4274-8c06-500efc200731" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="952e4080-1be7-42f7-a930-75fbf0c405d5" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="ed581cee-ba3b-4a7a-a582-0938c0355178" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="252420d5-4889-495b-9931-ab9e679b3a71" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="f0807c8e-04f5-4829-9356-98c208c52965" />
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property Id="44c77322-05ea-491b-a64f-1cf61e33c9e6" name="Дата" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="2c87dd6d-712e-4d80-9fd3-b7631975ffe5" />
+          </property>
+          <property Id="329ccd4f-bfde-4382-b3ad-69e15f040a61" name="Постачальник" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="f8cded05-f4f3-446e-a2c3-ea75c64ad63c" />
+          </property>
+          <property Id="fc66f53a-ddde-4524-b9d9-6fdc1cdd9a4a" name="Сума" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="731d39b5-44c1-4aba-b4cd-6df2d5e120f7" />
+          </property>
+          <property Id="6c9de873-4f8f-48cd-91d2-2a50ad0316e7" name="Id" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="f068169b-3005-4783-bbf0-68723eb098c0" />
+          </property>
+          <property Id="38827704-497b-4422-a855-06dd8e1289aa" name="№" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="97e430b7-23f8-452e-9cb7-f6a10985130a" />
+          </property>
+          <property Id="0c578364-8a8f-402c-b2b0-aaf25b017112" name="Код устаткування" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="f9871415-396b-4d35-809c-b88b9b3bac49" />
+          </property>
+          <property Id="5b97eae6-c842-4766-970e-f9544d44ea11" name="Накладна" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="f523861a-ca3c-49fe-8451-e66eb54fd660" />
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="5f3d4a88-bd61-4fd8-bdc9-cc71d952eecf" name="Постачальник" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="190533ea-ee59-4e87-90df-b6a1b0e52ab6" />
+        <ownedAttributesInternal>
+          <property Id="25f862bb-3bf1-4ae8-9c29-06d2b7a3c57c" name="Назва" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="689c099c-50c9-4a20-ae92-723743e862f0" />
+          </property>
+          <property Id="6612568d-5197-4c74-9f13-3f863eda36a5" name="Id" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="a4ea1f30-ed46-4ae2-875f-b33b5789c3a0" />
+          </property>
+          <property Id="87530d54-dd58-4ab7-9588-6fb2f05455a7" name="Адреса" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="ebf8bda2-9119-4672-93b1-0ab8b784f707" />
+          </property>
+          <property Id="cfec07a9-da18-46da-8ce9-51113a62f25b" name="Номер телефону" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="8c4a0aea-dd19-4207-99e6-656c48db9caf" />
+          </property>
+          <property Id="bea836b3-429e-4d07-a0ee-c5067d99e15f" name="Email" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="d060d0e9-a80d-456b-a738-8694c4ff32d2" />
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="73c1332c-864a-4b0a-a752-79907608b2ec" name="Сировина" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="bfa532b7-4e88-4fed-8828-a99c23daa7e3" />
+        <ownedAttributesInternal>
+          <property Id="db6b4675-5597-4c1c-bc21-43af62530180" name="Id" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="62cbff83-ac82-4e45-b4b6-c2e2728cdd61" />
+          </property>
+          <property Id="e88c6d21-5983-4a65-8bde-fa1d71ef5f89" name="Назва" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="c150937c-25bd-4466-b6d9-b78c0f315596" />
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="924786bb-1154-43c8-b571-b3a7dfb8d8bd" name="Устаткування" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="53e24ca1-9098-4dde-8991-240a1ac8d37e" />
+        <ownedAttributesInternal>
+          <property Id="4093712d-803a-4344-9bf8-296b5bdff7f0" name="Id" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="968b9b1a-1aed-42a0-8a8e-b0e78a3f5e95" />
+          </property>
+          <property Id="3a98eeba-fb35-4336-9bb8-deb20fff926e" name="Назва" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="843d0fca-15e2-46a8-a8a5-8d42ef0c6c06" />
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="582ed809-6495-4aad-ab9b-571fb64bbeb1" name="Рахунки-фактури" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="b65336d4-4b25-4d5a-8fcf-af1d53c75f7a" />
+        <targetEnds>
+          <association Id="df5dbec3-a405-4e2c-b19e-26b6ba439793" isDerived="false" sourceEndRoleName="" targetEndRoleName="" isLeaf="false" isAbstract="false">
+            <classMoniker Id="893afd97-f1de-41a3-ba5b-2e75385b6dbc" LastKnownName="Договори на постачання сировини" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="a7c7d60b-b1ed-4937-8396-3d6cdefdc7e9" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="374f0a04-c332-4d87-9ced-45bc1313fbcc" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="e3367ce3-df7b-4a52-b525-3933d939ae7f" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="42f622e5-c5d1-4cfe-8c80-df7dbb18a68b" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="fbaeadc9-9978-4c48-91ce-ae135b9a5116" />
+          </association>
+          <association Id="42e75e8e-3d81-4a1b-be87-e0ea62cdf067" isDerived="false" sourceEndRoleName="" targetEndRoleName="" isLeaf="false" isAbstract="false">
+            <classMoniker Id="f485aae7-9449-457f-8738-fe5a59b5a229" LastKnownName="Договори на постачання устаткування" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="120dfd9c-c354-428b-ae6a-53f93931fb63" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="de1862f8-045b-41ce-a611-552b508f3005" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="834f892c-3381-4e96-87c2-100a44bd51d4" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="6a54b242-1c1e-4e22-8629-3d9b40e4dfe5" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="1721b83f-891b-46f7-8032-d12ffd04cd09" />
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property Id="1d6670fb-176f-421b-a918-e9320c4c034a" name="Id" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="823e662b-27f6-4c30-b49d-19e051a94559" />
+          </property>
+          <property Id="f76ef3c0-6421-45b5-9088-6d1c49178e2e" name="Дата" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="bf996f27-cf38-4830-9f9d-bb532c72223b" />
+          </property>
+          <property Id="59cc267a-e3d1-4909-9594-5b144af67cda" name="№" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="73040dd4-c0ec-4fe6-a758-366940602e62" />
+          </property>
+          <property Id="a6c65da1-94b4-4baa-b0ef-9f1fe4112bfe" name="Договір" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="9785bddf-3f3e-41cd-b570-7a2bbd0050c3" />
+          </property>
+          <property Id="3279d59c-b68e-4678-b295-911d42dd8898" name="ПДВ" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="199d91b4-dc61-4cca-bc3f-5103ad5712b5" />
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="081362e9-89f3-453f-bdfc-c989214e9cb8" name="Накладні про надходження сировини" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="bb323982-fc75-4ab5-8590-a1cf7819cef0" />
+        <ownedAttributesInternal>
+          <property Id="3201316c-a98f-4906-85c7-2344f599390d" name="№" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="d58d3137-fabf-4144-8190-eb572a8ce887" />
+          </property>
+          <property Id="7b655459-3cb3-429f-8140-a428d076ee8e" name="Id" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="e285fcf5-6f23-4453-9000-99f5a6b811d2" />
+          </property>
+          <property Id="c3bf1581-ef84-49ac-936a-c9c0fe75db0b" name="Дата" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="f0af4a36-82e6-467a-aed1-1d0690c46205" />
+          </property>
+          <property Id="1a658042-8582-4afb-a75f-101bb0d706a3" name="Загальна сума" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="b910658d-1010-4e7d-a675-ded1abf7bd16" />
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="654b7589-f263-49fe-8d92-54511d554f95" name="Накладні про видачу сировини" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="cea92560-7509-4af7-ac61-a1df48e7d4f7" />
+        <ownedAttributesInternal>
+          <property Id="c7c42c53-20a9-4ea8-b410-3a4962ba4ee4" name="Id" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="85e944af-298f-4341-9f88-be1f558ee0f2" />
+          </property>
+          <property Id="e681b4d5-1ee7-4aad-a209-d725cafb2837" name="№" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="2ea3ddc7-c469-46f2-b5b0-fb0f40890377" />
+          </property>
+          <property Id="399ff149-7de7-4b02-b4ec-38605a02a109" name="Дата" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="e7870e74-db02-4821-b08d-e4555dee7673" />
+          </property>
+          <property Id="f773ba8c-5b5a-4c1c-8f5d-b06085bb0b76" name="Загальна сума" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="2ecee66d-158a-4b3e-bba7-1794864e8612" />
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="b3a1fbb6-b040-4fb4-901e-dedd8e2f9636" name="Рецептури" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="6dcd7283-691e-46a5-97d5-f755cfe5e940" />
+        <ownedAttributesInternal>
+          <property Id="9f646984-3195-4259-9638-5f64ee8b169c" name="Назва" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="b3473fa7-6d16-45f1-98eb-bb4580a49397" />
+          </property>
+          <property Id="f59b07a6-e098-4d6c-b13c-2cdf1e41b4d4" name="Id" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="f09ac6ad-4a4e-4fe8-8953-660fdd4f2afa" />
+          </property>
+          <property Id="af3d3deb-a20c-4263-b66e-643b6c0dd73e" name="№" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="3d67d3d7-2b9a-4b90-9939-8a16226a44cd" />
+          </property>
+          <property Id="c96f5e87-a476-43e2-bc71-6984b5079f9d" name="Опис" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="cc47033e-7a96-4d46-a749-e0889259583e" />
+          </property>
+          <property Id="ddefb60a-082c-4845-8481-264d42863444" name="Примітки" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="90d80edf-33c2-4253-9f72-3ddd99ac976a" />
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="86abe588-1604-4616-9108-a8a38ef4917f" name="Дані про надходження продукції" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="c03ece0f-3728-4f2e-8459-5e055dbce030" />
+        <targetEnds>
+          <association Id="f1fdb392-a7db-4ffe-9e50-0760e34f9772" isDerived="false" sourceEndRoleName="" targetEndRoleName="" isLeaf="false" isAbstract="false">
+            <classMoniker Id="6acdfc26-e21b-4ed2-81b1-c0e788b71489" LastKnownName="Продукція" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="49285a04-d827-4896-ab04-f2b1365cb61b" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="5cd62190-4c69-4342-8bbe-8eba0d2cf3e1" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="36473cf3-b68f-4d47-9afd-c0315c39fd1c" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="d84aa71c-e61a-43bc-8727-5ab59b53ea09" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="e8a98005-94e1-4696-a1b7-da195419b7fe" />
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property Id="55ad39f5-1c49-4ca3-b902-6e90ef9b5e8a" name="№" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="971bb62a-b07c-484d-890e-7304c6aea300" />
+          </property>
+          <property Id="12dae570-3619-42d8-82cf-eeea1271423a" name="Id" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="0f68d1c4-e237-462f-97a9-0cc727282e3f" />
+          </property>
+          <property Id="a67ea382-0622-4297-be14-adc45794c5f0" name="Дата" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="0bdb7848-1328-4fd8-8827-64f35d974553" />
+          </property>
+          <property Id="35e3b1e9-cd60-43c8-adcb-6cd4279ee008" name="Загальна сума" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="095966cd-8f61-4737-aa7f-c8d7e7a31564" />
+          </property>
+          <property Id="e8509e0b-7796-4d08-99cd-214a4da160eb" name="Код продукції" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="17819481-fb3e-4c39-beec-f7983fb9447d" />
+          </property>
+          <property Id="f88d127d-add9-48db-a753-84e66ff703d6" name="Кількість" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="ffba33a3-f1bf-465b-8335-5fcf30812faa" />
+          </property>
+          <property Id="955b633a-45e4-4886-a978-c521e4071885" name="Дата виготовлення" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="f36c6c75-7d6f-4d0b-99f9-d9f64b16b71d" />
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="3edc7e0c-c99b-4d7b-b348-7e6a4ff2b746" name="Дані про видачу продукції" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="c6911f79-6742-455e-bcb4-8279e0d61bfb" />
+        <targetEnds>
+          <association Id="cd188813-c7a1-4c31-8ec7-6250a0113af3" isDerived="false" sourceEndRoleName="" targetEndRoleName="" isLeaf="false" isAbstract="false">
+            <classMoniker Id="6acdfc26-e21b-4ed2-81b1-c0e788b71489" LastKnownName="Продукція" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="2d676f39-1971-4994-b5db-073b50a1c549" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="4883afab-7cff-4cd3-85d7-513fa4563890" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="84a2394a-5902-4a8b-9332-a53f08456f95" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="8c16e86a-2b1c-4cc9-a7ad-a081b360b98d" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="753b4e32-58bd-425e-9727-43e7ad5c3683" />
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property Id="7f7b72e7-9fdc-4b92-a9f8-bc0ddc1de0c7" name="№" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="efa9707d-1e2a-4cfd-b47f-18f8f062d6be" />
+          </property>
+          <property Id="8c05282d-1099-489d-a17f-a4e18fb791e8" name="Id" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="87c29ebd-2ff7-4da4-b330-acd4f67518b5" />
+          </property>
+          <property Id="2b4d489d-131d-401f-b748-bf5a8410d33f" name="Дата" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="bd5ba917-82ad-4df4-92fe-4d81431746e7" />
+          </property>
+          <property Id="27a08b3e-586b-4cc7-bfde-5b23f399cbd5" name="Загальна сума" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="d60040c5-d4dc-4382-a6b2-2d828907d9d2" />
+          </property>
+          <property Id="59372950-7ce3-45f6-80ab-946d6d82e578" name="Код продукції" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="a3603366-4083-4e75-be3e-7190592bcf76" />
+          </property>
+          <property Id="36b61278-c3b0-46ff-a152-bb6e49632420" name="Кількість" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="2bcf63e3-63f0-4b64-b8d8-2bc083c095fe" />
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="6acdfc26-e21b-4ed2-81b1-c0e788b71489" name="Продукція" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="d4f905fe-e652-4255-9709-590ba6707545" />
+        <targetEnds>
+          <association Id="73e8a337-5027-4370-89c1-bad884a438bb" isDerived="false" sourceEndRoleName="Продукція" targetEndRoleName="Рецептури" isLeaf="false" isAbstract="false">
+            <classMoniker Id="b3a1fbb6-b040-4fb4-901e-dedd8e2f9636" LastKnownName="Рецептури" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="f17ec5e8-576a-4a2e-b4e6-00c61c4809ab" name="Продукція" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="c8c462ea-f64c-4d0d-aa20-45b53183ba74" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="7de4453e-fa99-4b76-8d96-e9e22a540471" name="Рецептури" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="9ab5ede0-5d5e-40ad-a5d5-9e5dcb1b7343" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="39ad280f-0fef-41ba-a9a0-478708ffdfcd" />
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property Id="f3fc022e-880d-455e-b029-4c26e80daa33" name="Id" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="298de3eb-4773-4dcd-9e40-362b60892b96" />
+          </property>
+          <property Id="6d238439-f5ee-42d3-9207-bd7e0f58a155" name="Назва" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="4d1883e7-d4c2-405e-9994-988d289bca6b" />
+          </property>
+          <property Id="56155b15-b73f-472e-8c32-86e4f5f35021" name="Примітка" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="851207f8-8cfa-489c-bc33-2511d89caed9" />
+          </property>
+          <property Id="3cf8016c-439d-46c2-840a-69635ef22a36" name="Термін зберігання" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="9a24c5b7-2e40-4325-91bf-eea62794afae" />
+          </property>
+          <property Id="e58a7812-f1ae-4b86-981e-1303608cfa53" name="Ціна" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="23378ab1-de54-44c1-bab6-4b4052ed1dbc" />
+          </property>
+          <property Id="594fa9da-345f-4873-84d3-d14a806f48f4" name="№" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="ea9c3c7e-3572-428a-bf8a-c18c44c3b1bc" />
+          </property>
+          <property Id="c612c874-0e6d-4ed6-9fff-d36ec78f0d9c" name="Рецептура" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="90f99d3c-8267-413e-9aed-42bd59c85a45" />
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="4a38ff66-cfe0-47bc-aefd-67a0c2ac9ebb" name="Накладні зі складу на реалізовану продукцію" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="88dff704-3caf-4c4f-9348-8bef8f2839fd" />
+        <ownedAttributesInternal>
+          <property Id="a2928bc8-6e15-4213-8e5d-4183e3af335a" name="Id" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="ed274efe-6f16-469b-ae9b-55edfe5aade6" />
+          </property>
+          <property Id="388149dc-d154-4ee8-99ad-fcefe70f6379" name="Дата" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="18fcec22-7dc8-4e50-b6a7-d81d46e6c0bb" />
+          </property>
+          <property Id="84cd12ea-0554-49aa-8468-6126561fb039" name="Загальна сума" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="82481d11-ba05-4807-a759-062979fad950" />
+          </property>
+          <property Id="158ad55f-2e51-4761-9b88-98442aa309a4" name="№" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="b671c729-fdb9-4bb5-a043-4ec2d0ee9240" />
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="fe94ee66-4998-4d28-a423-5f653d58c6a1" name="Реалізована продукція" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="0f17f1db-4b0a-41fc-a764-345a8d877feb" />
+        <targetEnds>
+          <association Id="70ce22ff-379d-42c9-9940-43b408f42cce" isDerived="false" sourceEndRoleName="" targetEndRoleName="" isLeaf="false" isAbstract="false">
+            <classMoniker Id="4a38ff66-cfe0-47bc-aefd-67a0c2ac9ebb" LastKnownName="Накладні зі складу на реалізовану продукцію" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="79285ecc-e4e2-484d-8718-42ab7f7149cc" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="95f73558-847a-4d81-9c0d-d10655d3f180" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="73090890-4cb3-4f17-b507-742d36c6e2ba" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="244fb1a6-6cfd-4da7-829a-290a84fcffe4" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="024826a2-6ef8-4d2c-9e7c-dba691afd969" />
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property Id="5769f79c-8163-42b4-bbba-ba6fa5c83d9e" name="Id" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="9b557632-1689-4a71-a984-5d70537fb435" />
+          </property>
+          <property Id="1f07acfd-73ca-4abb-a15c-39ed233324a7" name="Назва" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="18810a8a-858c-4641-a15c-fc347c650dfb" />
+          </property>
+          <property Id="a5f5da52-2067-4e59-a078-61562a8a9477" name="Примітка" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="ed67b47b-78d4-4f61-87c8-ff5f9bc50e39" />
+          </property>
+          <property Id="58673a48-951f-4d77-8937-289969bd092a" name="Термін зберігання" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="6cd6a10c-b611-478c-b852-8e1ba7e830fc" />
+          </property>
+          <property Id="8d0dceaf-2693-407c-9b39-a3256ba3f68f" name="Ціна" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="d5ded068-b328-4e72-9765-2f238f6e42d8" />
+          </property>
+          <property Id="c459b058-8c36-4fb7-a8b7-0c02a826a2ff" name="№" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="29c980a9-1fe7-4b41-9d71-f52082ea78b0" />
+          </property>
+          <property Id="a831bea6-5608-4ec9-85d9-79b0fc49f700" name="Кількість" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="5dfe0ed2-cdda-4e95-af66-a4b11082865a" />
+          </property>
+          <property Id="f2d3e6e0-b227-4403-a6f3-5a70d56df311" name="Накладна" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="52f8ec6b-4768-49b6-8343-e3898abf1063" />
+          </property>
+          <property Id="0e5055aa-d6c0-459d-8d68-7d42fe4383fa" name="Дата" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="fffebf44-b5f0-487b-907a-cac429544cf0" />
           </property>
         </ownedAttributesInternal>
       </class>
