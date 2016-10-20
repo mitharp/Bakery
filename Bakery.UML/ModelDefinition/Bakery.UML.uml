@@ -3012,6 +3012,14 @@
         isAbstract="false"
         isLeaf="false" />
     </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="2af0241f-36ec-48de-9013-0916cbd7f353"
+        name="Class2"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
+    </packageHasNamedElement>
   </packagedElements>
   <primitiveType
     Id="220a3521-e091-4221-bae9-3ef9018e845c"
