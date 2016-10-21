@@ -5056,7 +5056,7 @@
           <association
             Id="39ad280f-0fef-41ba-a9a0-478708ffdfcd"
             isDerived="false"
-            sourceEndRoleName="Продукція"
+            sourceEndRoleName=""
             targetEndRoleName="Рецептури"
             isLeaf="false"
             isAbstract="false">
@@ -5068,7 +5068,6 @@
               <associationHasOwnedEnds>
                 <memberEnd
                   Id="c8c462ea-f64c-4d0d-aa20-45b53183ba74"
-                  name="Продукція"
                   isLeaf="false"
                   isStatic="false"
                   isReadOnly="false"

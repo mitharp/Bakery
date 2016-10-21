@@ -725,11 +725,11 @@
       <class Id="6acdfc26-e21b-4ed2-81b1-c0e788b71489" name="Продукція" isAbstract="false" isLeaf="false" isActiveClass="false">
         <elementDefinition Id="d4f905fe-e652-4255-9709-590ba6707545" />
         <targetEnds>
-          <association Id="73e8a337-5027-4370-89c1-bad884a438bb" isDerived="false" sourceEndRoleName="Продукція" targetEndRoleName="Рецептури" isLeaf="false" isAbstract="false">
+          <association Id="73e8a337-5027-4370-89c1-bad884a438bb" isDerived="false" sourceEndRoleName="" targetEndRoleName="Рецептури" isLeaf="false" isAbstract="false">
             <classMoniker Id="b3a1fbb6-b040-4fb4-901e-dedd8e2f9636" LastKnownName="Рецептури" />
             <relationshipOwnedElementsInternal>
               <associationHasOwnedEnds>
-                <memberEnd Id="f17ec5e8-576a-4a2e-b4e6-00c61c4809ab" name="Продукція" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                <memberEnd Id="f17ec5e8-576a-4a2e-b4e6-00c61c4809ab" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
                   <elementDefinition Id="c8c462ea-f64c-4d0d-aa20-45b53183ba74" />
                 </memberEnd>
               </associationHasOwnedEnds>
