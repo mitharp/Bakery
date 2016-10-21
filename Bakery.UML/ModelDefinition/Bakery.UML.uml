@@ -1212,7 +1212,7 @@
             isAbstract="false">
             <useCaseMoniker
               Id="2459f72e-bc47-428e-bd1f-3d079367902c"
-              LastKnownName="Введення даних з постачання сировини"
+              LastKnownName="Реєстрація договорів з постачання сировини"
               LastKnownLocation="Bakery.UML.uml" />
             <relationshipOwnedElementsInternal>
               <associationHasOwnedEnds>
@@ -1232,6 +1232,45 @@
                 <memberEnd
                   Id="e9b71c0a-16a1-4820-9a63-a8dec69682eb"
                   name="Введення даних з постачання сировини"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="77bfd021-bf49-41e0-a432-d9a796afac0c"
+            isDerived="false"
+            sourceEndRoleName="Менеджер з постачання сировини"
+            targetEndRoleName="Реєстрація рахунків-фактур"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="c843604f-b055-499a-9460-594085e305c6"
+              LastKnownName="Реєстрація рахунків-фактур"
+              LastKnownLocation="Bakery.UML.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="ca81c7e8-e660-466d-b1a9-0c75fc210d82"
+                  name="Менеджер з постачання сировини"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="9c1b8834-fd52-465b-adbc-bd26b082d2a5"
+                  name="Реєстрація рахунків-фактур"
                   isLeaf="false"
                   isStatic="false"
                   isReadOnly="false"
@@ -1339,7 +1378,7 @@
             isAbstract="false">
             <useCaseMoniker
               Id="18bb4d2d-a419-4ce9-bcbf-d0aa33270435"
-              LastKnownName="Введення даних з постачання устаткування"
+              LastKnownName="Реєстрація договорів з постачання устаткування"
               LastKnownLocation="Bakery.UML.uml" />
             <relationshipOwnedElementsInternal>
               <associationHasOwnedEnds>
@@ -1359,6 +1398,45 @@
                 <memberEnd
                   Id="bd03f379-cb8e-4b33-82c9-85ddc447e4e3"
                   name="Введення даних з постачання устаткування"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="ac7b9381-d464-40bb-b674-c10c5b111dc2"
+            isDerived="false"
+            sourceEndRoleName="Менеджер з постачання устаткування"
+            targetEndRoleName="Реєстрація рахунків-фактур"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="c843604f-b055-499a-9460-594085e305c6"
+              LastKnownName="Реєстрація рахунків-фактур"
+              LastKnownLocation="Bakery.UML.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="b2dc529a-f434-42b5-8052-403694428368"
+                  name="Менеджер з постачання устаткування"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="020c929a-4d87-4921-a3e3-2d6828a877d4"
+                  name="Реєстрація рахунків-фактур"
                   isLeaf="false"
                   isStatic="false"
                   isReadOnly="false"
@@ -2909,7 +2987,7 @@
     <packageHasNamedElement>
       <useCase
         Id="2459f72e-bc47-428e-bd1f-3d079367902c"
-        name="Введення даних з постачання сировини"
+        name="Реєстрація договорів з постачання сировини"
         isAbstract="false"
         isLeaf="false" />
     </packageHasNamedElement>
@@ -2987,7 +3065,7 @@
     <packageHasNamedElement>
       <useCase
         Id="18bb4d2d-a419-4ce9-bcbf-d0aa33270435"
-        name="Введення даних з постачання устаткування"
+        name="Реєстрація договорів з постачання устаткування"
         isAbstract="false"
         isLeaf="false" />
     </packageHasNamedElement>
@@ -3952,7 +4030,7 @@
     <packageHasNamedElement>
       <class
         Id="6a6fa2a0-3929-4c55-a535-450e38b56399"
-        name="Вхідні платіжні документи та договори"
+        name="Вхідні платіжні документи"
         isAbstract="false"
         isLeaf="false"
         isActiveClass="false">
@@ -4126,6 +4204,43 @@
               <associationHasOwnedEnds>
                 <memberEnd
                   Id="8b210581-5eca-49a0-90e7-c53ea5fa2b30"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="9d8d8c7e-ef32-4035-b931-288d3a6c3009"
+            isDerived="false"
+            sourceEndRoleName=""
+            targetEndRoleName=""
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="190533ea-ee59-4e87-90df-b6a1b0e52ab6"
+              LastKnownName="Постачальник"
+              LastKnownLocation="Bakery.UML.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="d6fbc29c-bb09-4580-a98f-a08ea302c738"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="ebc11d6c-4aff-471f-b6ab-7e4f8963099c"
                   isLeaf="false"
                   isStatic="false"
                   isReadOnly="false"
@@ -4608,6 +4723,17 @@
           <property
             Id="199d91b4-dc61-4cca-bc3f-5103ad5712b5"
             name="ПДВ"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="0d5515c4-e180-49d4-98f3-2f0ad9aeac72"
+            name="Реквізити банку"
             isLeaf="false"
             isStatic="false"
             isReadOnly="false"
@@ -5294,22 +5420,48 @@
               </associationHasOwnedEnds>
             </relationshipOwnedElementsInternal>
           </association>
+          <association
+            Id="01d29054-1b53-434c-9d0d-449c7c8605f4"
+            isDerived="false"
+            sourceEndRoleName=""
+            targetEndRoleName=""
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="d4f905fe-e652-4255-9709-590ba6707545"
+              LastKnownName="Продукція"
+              LastKnownLocation="Bakery.UML.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="5b820f06-0dc4-47e6-a926-356dde094f37"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="a2341ef7-5f67-45ed-b4f4-b3d2835beba0"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
         </targetEnds>
         <ownedAttributesInternal>
           <property
             Id="9b557632-1689-4a71-a984-5d70537fb435"
             name="Id"
-            isLeaf="false"
-            isStatic="false"
-            isReadOnly="false"
-            isUnique="false"
-            isDerived="false"
-            isDerivedUnion="false"
-            aggregation="None"
-            isComposite="false" />
-          <property
-            Id="18810a8a-858c-4641-a15c-fc347c650dfb"
-            name="Назва"
             isLeaf="false"
             isStatic="false"
             isReadOnly="false"
@@ -5353,7 +5505,7 @@
             isComposite="false" />
           <property
             Id="29c980a9-1fe7-4b41-9d71-f52082ea78b0"
-            name="№"
+            name="Код продукції"
             isLeaf="false"
             isStatic="false"
             isReadOnly="false"
@@ -5375,7 +5527,7 @@
             isComposite="false" />
           <property
             Id="52f8ec6b-4768-49b6-8343-e3898abf1063"
-            name="Накладна"
+            name="Код накладної"
             isLeaf="false"
             isStatic="false"
             isReadOnly="false"
@@ -5385,8 +5537,19 @@
             aggregation="None"
             isComposite="false" />
           <property
-            Id="fffebf44-b5f0-487b-907a-cac429544cf0"
-            name="Дата"
+            Id="23830482-d99c-48b8-bcdd-308506f6179c"
+            name="Одиниця вимірювання"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="b4bdef84-44fc-40cc-b89e-d2ed779f41f1"
+            name="Вартість (обчислюване)"
             isLeaf="false"
             isStatic="false"
             isReadOnly="false"
@@ -5408,6 +5571,189 @@
         <ownedAttributesInternal>
           <property
             Id="a95a30ba-a8e3-483e-8ebc-977b040524d7"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+        </ownedAttributesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="c843604f-b055-499a-9460-594085e305c6"
+        name="Реєстрація рахунків-фактур"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="f24ad02a-c22e-4edf-83b7-baa69a386d80"
+        name="Прихідна накладна"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <ownedAttributesInternal>
+          <property
+            Id="57b9208e-1fe4-42ad-a7b6-707a39dbd786"
+            name="№"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="19c96f23-2427-4691-a28c-86eafeafbc7a"
+            name="Id"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="77e7cc54-1af2-4f8e-b7f6-f387eaf997f2"
+            name="Дата"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="8a2369c2-e0f0-44ee-840c-364816ea3f9c"
+            name="Загальна сума"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="8934f952-5c1b-4941-a124-51a293191518"
+            name="Договір"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+        </ownedAttributesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="893f9d02-7dd5-412d-be45-8aff0f0b8895"
+        name="Сировина прихідної накладної"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <ownedAttributesInternal>
+          <property
+            Id="276950b1-821c-4c6d-a4f8-807a6792d392"
+            name="Id"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="f7542748-53f7-4424-b29f-a7ce56a28c55"
+            name="Примітка"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="d4b87af6-0f0b-4fcd-8dc0-d43f84d1b743"
+            name="Термін зберігання"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="45a3046d-0a2f-4963-84a9-6b803772b8ab"
+            name="Ціна"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="a36c16db-8d8d-4479-ac09-0dab3ab0b3fb"
+            name="Кількість"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="0554578b-4bec-4ca4-a204-4933774f7ff5"
+            name="Код накладної"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="f7dcb22a-a4f6-477c-8de9-a4b65799fdf1"
+            name="Одиниця вимірювання"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="771e1a25-441c-4cb0-9907-2447ec803318"
+            name="Вартість (обчислюване)"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="17fccfd0-83c6-4330-9926-fab7417bd905"
+            name="Код сировини"
             isLeaf="false"
             isStatic="false"
             isReadOnly="false"
