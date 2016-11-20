@@ -5183,7 +5183,7 @@
             Id="39ad280f-0fef-41ba-a9a0-478708ffdfcd"
             isDerived="false"
             sourceEndRoleName=""
-            targetEndRoleName="Рецептури"
+            targetEndRoleName=""
             isLeaf="false"
             isAbstract="false">
             <classMoniker
@@ -5206,7 +5206,6 @@
               <associationHasOwnedEnds>
                 <memberEnd
                   Id="9ab5ede0-5d5e-40ad-a5d5-9e5dcb1b7343"
-                  name="Рецептури"
                   isLeaf="false"
                   isStatic="false"
                   isReadOnly="false"
@@ -5222,17 +5221,6 @@
           <property
             Id="298de3eb-4773-4dcd-9e40-362b60892b96"
             name="Id"
-            isLeaf="false"
-            isStatic="false"
-            isReadOnly="false"
-            isUnique="false"
-            isDerived="false"
-            isDerivedUnion="false"
-            aggregation="None"
-            isComposite="false" />
-          <property
-            Id="4d1883e7-d4c2-405e-9994-988d289bca6b"
-            name="Назва"
             isLeaf="false"
             isStatic="false"
             isReadOnly="false"
@@ -5266,17 +5254,6 @@
           <property
             Id="23378ab1-de54-44c1-bab6-4b4052ed1dbc"
             name="Ціна"
-            isLeaf="false"
-            isStatic="false"
-            isReadOnly="false"
-            isUnique="false"
-            isDerived="false"
-            isDerivedUnion="false"
-            aggregation="None"
-            isComposite="false" />
-          <property
-            Id="ea9c3c7e-3572-428a-bf8a-c18c44c3b1bc"
-            name="№"
             isLeaf="false"
             isStatic="false"
             isReadOnly="false"

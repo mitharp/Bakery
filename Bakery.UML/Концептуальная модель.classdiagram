@@ -744,7 +744,7 @@
       <class Id="6acdfc26-e21b-4ed2-81b1-c0e788b71489" name="Продукція" isAbstract="false" isLeaf="false" isActiveClass="false">
         <elementDefinition Id="d4f905fe-e652-4255-9709-590ba6707545" />
         <targetEnds>
-          <association Id="73e8a337-5027-4370-89c1-bad884a438bb" isDerived="false" sourceEndRoleName="" targetEndRoleName="Рецептури" isLeaf="false" isAbstract="false">
+          <association Id="73e8a337-5027-4370-89c1-bad884a438bb" isDerived="false" sourceEndRoleName="" targetEndRoleName="" isLeaf="false" isAbstract="false">
             <classMoniker Id="b3a1fbb6-b040-4fb4-901e-dedd8e2f9636" LastKnownName="Рецептури" />
             <relationshipOwnedElementsInternal>
               <associationHasOwnedEnds>
@@ -753,7 +753,7 @@
                 </memberEnd>
               </associationHasOwnedEnds>
               <associationHasOwnedEnds>
-                <memberEnd Id="7de4453e-fa99-4b76-8d96-e9e22a540471" name="Рецептури" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                <memberEnd Id="7de4453e-fa99-4b76-8d96-e9e22a540471" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
                   <elementDefinition Id="9ab5ede0-5d5e-40ad-a5d5-9e5dcb1b7343" />
                 </memberEnd>
               </associationHasOwnedEnds>
@@ -765,9 +765,6 @@
           <property Id="f3fc022e-880d-455e-b029-4c26e80daa33" name="Id" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
             <elementDefinition Id="298de3eb-4773-4dcd-9e40-362b60892b96" />
           </property>
-          <property Id="6d238439-f5ee-42d3-9207-bd7e0f58a155" name="Назва" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
-            <elementDefinition Id="4d1883e7-d4c2-405e-9994-988d289bca6b" />
-          </property>
           <property Id="56155b15-b73f-472e-8c32-86e4f5f35021" name="Примітка" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
             <elementDefinition Id="851207f8-8cfa-489c-bc33-2511d89caed9" />
           </property>
@@ -776,9 +773,6 @@
           </property>
           <property Id="e58a7812-f1ae-4b86-981e-1303608cfa53" name="Ціна" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
             <elementDefinition Id="23378ab1-de54-44c1-bab6-4b4052ed1dbc" />
-          </property>
-          <property Id="594fa9da-345f-4873-84d3-d14a806f48f4" name="№" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
-            <elementDefinition Id="ea9c3c7e-3572-428a-bf8a-c18c44c3b1bc" />
           </property>
           <property Id="c612c874-0e6d-4ed6-9fff-d36ec78f0d9c" name="Рецептура" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
             <elementDefinition Id="90f99d3c-8267-413e-9aed-42bd59c85a45" />
